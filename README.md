@@ -44,6 +44,12 @@ It is the same process as ZCU106 evaluation board [here](https://github.com/winc
 
 Additionally, instead of using the root file system from Xilinx, the generic debian or ubuntu version can be found at [https://rcn-ee.com/](https://rcn-ee.com/rootfs/eewiki/minfs/). 
 
+E.g. 
+
+a. Copy the ubuntu-20.04.2-minimal-armhf-2021-06-20.tar.xz to ext4 partition on SD card and extract it using 'xz -d ubuntu-20.04.2-minimal-armhf-2021-06-20.tar.xz'
+
+b. Extract the rootfs files to ext4 partition using command 'tar xfvp ubuntu-20.04.2-minimal-armhf-2021-06-20.tar ./'
+
 Once the board is boot up, the network needs to be configured through netplan. The easist way is to adopt DHCP configurations. By create a '.yaml' file under '/etc/netplan' with context:
 
 ```
