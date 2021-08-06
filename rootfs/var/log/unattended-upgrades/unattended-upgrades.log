@@ -1,0 +1,27 @@
+2019-06-11 06:54:09,675 INFO Initial blacklisted packages: 
+2019-06-11 06:54:09,677 INFO Initial whitelisted packages: 
+2019-06-11 06:54:09,677 INFO Starting unattended upgrades script
+2019-06-11 06:54:09,678 INFO Allowed origins are: o=Ubuntu,a=xenial, o=Ubuntu,a=xenial-security, o=UbuntuESM,a=xenial
+2019-06-11 06:54:34,616 INFO Packages that will be upgraded: libelf1 libglib2.0-0 libglib2.0-bin libglib2.0-data libsndfile1
+2019-06-11 06:54:34,617 INFO Writing dpkg log to /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2019-06-11 07:00:04,786 INFO All upgrades installed
+2019-06-18 05:45:14,612 INFO Initial blacklisted packages: 
+2019-06-18 05:45:15,180 INFO Initial whitelisted packages: 
+2019-06-18 05:45:15,180 INFO Starting unattended upgrades script
+2019-06-18 05:45:15,181 INFO Allowed origins are: o=Ubuntu,a=xenial, o=Ubuntu,a=xenial-security, o=UbuntuESM,a=xenial
+2019-06-18 05:46:26,657 INFO Initial blacklisted packages: 
+2019-06-18 05:46:26,658 INFO Initial whitelisted packages: 
+2019-06-18 05:46:26,659 INFO Starting unattended upgrades script
+2019-06-18 05:46:26,659 INFO Allowed origins are: o=Ubuntu,a=xenial, o=Ubuntu,a=xenial-security, o=UbuntuESM,a=xenial
+2019-06-18 05:46:39,596 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2019-06-19 03:59:56,522 INFO Initial blacklisted packages: 
+2019-06-19 03:59:56,526 INFO Initial whitelisted packages: 
+2019-06-19 03:59:56,527 INFO Starting unattended upgrades script
+2019-06-19 03:59:56,527 INFO Allowed origins are: o=Ubuntu,a=xenial, o=Ubuntu,a=xenial-security, o=UbuntuESM,a=xenial
+2019-06-19 06:30:01,876 INFO Initial blacklisted packages: 
+2019-06-19 06:30:01,878 INFO Initial whitelisted packages: 
+2019-06-19 06:30:01,878 INFO Starting unattended upgrades script
+2019-06-19 06:30:01,879 INFO Allowed origins are: o=Ubuntu,a=xenial, o=Ubuntu,a=xenial-security, o=UbuntuESM,a=xenial
+2019-06-19 06:30:22,397 INFO Packages that will be upgraded: dbus dbus-x11 libdbus-1-3 sudo vim vim-common vim-runtime vim-tiny
+2019-06-19 06:30:22,398 INFO Writing dpkg log to /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2019-06-19 06:37:42,970 INFO All upgrades installed

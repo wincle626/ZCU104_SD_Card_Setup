@@ -1,0 +1,228 @@
+###############################################################################
+#
+#  MIME media types and programs that process those types
+#
+#  Much of this file is generated automatically by the program "update-mime".
+#  Please see the "update-mime" man page for more information.
+#
+#  Users can add their own rules if they wish by creating a ".mailcap"
+#  file in their home directory.  Entries included there will take
+#  precedence over those listed here.
+#
+###############################################################################
+
+
+###############################################################################
+#
+#  User section follows:  Any entries included in this section will take
+#  precedence over those created by "update-mime".  DO NOT CHANGE the
+#  "User Section Begins" and "User Section Ends" lines, or anything outside
+#  of this section!
+#
+
+# ----- User Section Begins ----- #
+# -----  User Section Ends  ----- #
+
+###############################################################################
+
+text/plain; less '%s'; needsterminal
+application/x-troff-man; /usr/bin/man -X100 -l '%s'; test=test -n "$DISPLAY" -a -e /usr/bin/gxditview; description=Man page
+text/troff; /usr/bin/man -X100 -l '%s'; test=test -n "$DISPLAY" -a -e /usr/bin/gxditview; description=Man page
+application/x-troff-man; /usr/bin/man -l '%s'; needsterminal; description=Man page
+text/troff; /usr/bin/man -l '%s'; needsterminal; description=Man page
+text/html; /usr/bin/sensible-browser %s; description=HTML Text; nametemplate=%s.html
+application/x-troff-man; /usr/bin/nroff -mandoc -Tutf8; copiousoutput; print=/usr/bin/nroff -mandoc -Tutf8 | print text/plain:-
+text/troff; /usr/bin/nroff -mandoc -Tutf8; copiousoutput; print=/usr/bin/nroff -mandoc -Tutf8 | print text/plain:-
+application/x-info; /usr/bin/info -f '%s'; needsterminal; description=GNU Info document
+text/plain; more %s; needsterminal
+image/avs; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/bie; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/x-ms-bmp; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/cmyk; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/dcx; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/eps; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/fax; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/fits; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/gif; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/gray; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/jpeg; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/pjpeg; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/miff; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/mono; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/mtv; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/x-portable-bitmap; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/pcd; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/pcx; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/pdf; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/x-portable-graymap; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/pict; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/png; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/x-portable-anymap; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/x-portable-pixmap; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/ps; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/rad; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/x-rgb; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/rgba; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/rla; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/rle; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/sgi; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/sun-raster; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/targa; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/tiff; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/uyvy; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/vid; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/viff; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/x-xbitmap; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/x-xpixmap; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/x-xwindowdump; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/x-icon; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/yuv; /usr/bin/display-im6 %s; test=test -n "$DISPLAY"
+image/avs; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/bie; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/x-ms-bmp; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/cmyk; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/dcx; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/eps; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/fax; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/fits; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/gif; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/gray; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/jpeg; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/pjpeg; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/miff; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/mono; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/mtv; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/x-portable-bitmap; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/pcd; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/pcx; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/pdf; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/x-portable-graymap; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/pict; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/png; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/x-portable-anymap; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/x-portable-pixmap; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/ps; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/rad; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/x-rgb; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/rgba; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/rla; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/rle; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/sgi; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/sun-raster; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/targa; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/tiff; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/uyvy; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/vid; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/viff; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/x-xbitmap; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/x-xpixmap; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/x-xwindowdump; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/x-icon; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+image/yuv; /usr/lib/aarch64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display %s; test=test -n "$DISPLAY"
+inode/directory; exo-open --launch FileManager %s; test=test -n "$DISPLAY"
+x-scheme-handler/trash; exo-open --launch FileManager %s; test=test -n "$DISPLAY"
+x-scheme-handler/mailto; exo-open --launch MailReader %s; test=test -n "$DISPLAY"
+x-scheme-handler/http; exo-open --launch WebBrowser %s; test=test -n "$DISPLAY"
+x-scheme-handler/https; exo-open --launch WebBrowser %s; test=test -n "$DISPLAY"
+application/pkcs12; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+application/pkcs12+pem; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+application/pkcs7-mime; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+application/pkcs7-mime+pem; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+application/pkcs8; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+application/pkcs8+pem; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+application/pkix-cert; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+application/pkix-cert+pem; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+application/pkix-crl; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+application/pkix-crl+pem; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+application/x-pem-file; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+application/x-pem-key; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+application/x-pkcs12; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+application/x-pkcs7-certificates; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+application/x-x509-ca-cert; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+application/x-x509-user-cert; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+application/pkcs10; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+application/pkcs10+pem; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+application/x-spkac; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+application/x-spkac+base64; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+application/x-cd-image; /usr/lib/gvfs/gvfsd-archive file=%s; test=test -n "$DISPLAY"
+application/x-bzip-compressed-tar; /usr/lib/gvfs/gvfsd-archive file=%s; test=test -n "$DISPLAY"
+application/x-compressed-tar; /usr/lib/gvfs/gvfsd-archive file=%s; test=test -n "$DISPLAY"
+application/x-tar; /usr/lib/gvfs/gvfsd-archive file=%s; test=test -n "$DISPLAY"
+application/x-cpio; /usr/lib/gvfs/gvfsd-archive file=%s; test=test -n "$DISPLAY"
+application/zip; /usr/lib/gvfs/gvfsd-archive file=%s; test=test -n "$DISPLAY"
+x-content/unix-software; nautilus-autorun-software %s; test=test -n "$DISPLAY"
+inode/directory; nautilus --new-window %s; test=test -n "$DISPLAY"
+application/x-gnome-saved-search; nautilus --new-window %s; test=test -n "$DISPLAY"
+application/x-openbox-theme; obconf %s; test=test -n "$DISPLAY"
+inode/directory; nautilus --new-window %s; test=test -n "$DISPLAY"
+application/x-gnome-saved-search; nautilus --new-window %s; test=test -n "$DISPLAY"
+text/english; vim %s; needsterminal
+text/plain; vim %s; needsterminal
+text/x-makefile; vim %s; needsterminal
+text/x-c++hdr; vim %s; needsterminal
+text/x-c++src; vim %s; needsterminal
+text/x-chdr; vim %s; needsterminal
+text/x-csrc; vim %s; needsterminal
+text/x-java; vim %s; needsterminal
+text/x-moc; vim %s; needsterminal
+text/x-pascal; vim %s; needsterminal
+text/x-tcl; vim %s; needsterminal
+text/x-tex; vim %s; needsterminal
+application/x-shellscript; vim %s; needsterminal
+text/x-c; vim %s; needsterminal
+text/x-c++; vim %s; needsterminal
+text/plain; view %s; edit=vim %s; compose=vim %s; test=test -x /usr/bin/vim; needsterminal
+text/plain; view %s; edit=vi %s; compose=vi %s; needsterminal
+image/avs; display-im6. 'avs:%s'; test=test -n "$DISPLAY"
+image/bie; display-im6 'jbig:%s'; test=test -n "$DISPLAY"
+image/x-ms-bmp; display-im6 'bmp:%s'; test=test -n "$DISPLAY"
+image/cmyk; display-im6 'cmyk:%s'; test=test -n "$DISPLAY"
+image/dcx; display-im6 'dcx:%s'; test=test -n "$DISPLAY"
+image/eps; display-im6 'eps:%s'; test=test -n "$DISPLAY"
+image/fax; display-im6 'fax:%s'; test=test -n "$DISPLAY"
+image/fits; display-im6 'fits:%s'; test=test -n "$DISPLAY"
+image/gif; display-im6 'gif:%s'; test=test -n "$DISPLAY"
+image/gray; display-im6 'gray:%s'; test=test -n "$DISPLAY"
+image/jpeg; display-im6 'jpeg:%s'; test=test -n "$DISPLAY"
+image/pjpeg; display-im6 'jpeg:%s'; test=test -n "$DISPLAY"
+image/miff; display-im6 'miff:%s'; test=test -n "$DISPLAY"
+image/mono; display-im6 'mono:%s'; test=test -n "$DISPLAY"
+image/mtv; display-im6 'mtv:%s'; test=test -n "$DISPLAY"
+image/x-portable-bitmap; display-im6 'pbm:%s'; test=test -n "$DISPLAY"
+image/pcd; display-im6 'pcd:%s'; test=test -n "$DISPLAY"
+image/pcx; display-im6 'pcx:%s'; test=test -n "$DISPLAY"
+image/pdf; display-im6 'pdf:%s'; test=test -n "$DISPLAY"
+image/x-portable-graymap; display-im6 'pgm:%s'; test=test -n "$DISPLAY"
+image/pict; display-im6 'pict:%s'; test=test -n "$DISPLAY"
+image/png; display-im6 'png:%s'; test=test -n "$DISPLAY"
+image/x-portable-anymap; display-im6 'pnm:%s'; test=test -n "$DISPLAY"
+image/x-portable-pixmap; display-im6 'ppm:%s'; test=test -n "$DISPLAY"
+image/ps; display-im6 'ps:%s'; test=test -n "$DISPLAY"
+image/rad; display-im6 'rad:%s'; test=test -n "$DISPLAY"
+image/x-rgb; display-im6 'rgb:%s'; test=test -n "$DISPLAY"
+image/rgba; display-im6 'rgba:%s'; test=test -n "$DISPLAY"
+image/rla; display-im6 'rla:%s'; test=test -n "$DISPLAY"
+image/rle; display-im6 'rle:%s'; test=test -n "$DISPLAY"
+image/sgi; display-im6 'sgi:%s'; test=test -n "$DISPLAY"
+image/sun-raster; display-im6 'sun:%s'; test=test -n "$DISPLAY"
+image/targa; display-im6 'tga:%s'; test=test -n "$DISPLAY"
+image/tiff; display-im6 'tiff:%s'; test=test -n "$DISPLAY"
+image/uyvy; display-im6 'uyvy:%s'; test=test -n "$DISPLAY"
+image/vid; display-im6 'vid:%s'; test=test -n "$DISPLAY"
+image/viff; display-im6 'viff:%s'; test=test -n "$DISPLAY"
+image/x-xbitmap; display-im6 'xbm:%s'; test=test -n "$DISPLAY"
+image/x-xpixmap; display-im6 'xpm:%s'; test=test -n "$DISPLAY"
+image/x-xwindowdump; display-im6 'xwd:%s'; test=test -n "$DISPLAY"
+image/x-icon; display-im6 'icon:%s'; test=test -n "$DISPLAY"
+image/yuv; display-im6 'yuv:%s'; test=test -n "$DISPLAY"
+application/x-troff-man; /usr/bin/man -Tascii -l '%s' | col -b; copiousoutput; description=Man page
+text/troff; /usr/bin/man -Tascii -l '%s' | col -b; copiousoutput; description=Man page
+text/*; less '%s'; needsterminal
+text/*; view %s; edit=vim %s; compose=vim %s; test=test -x /usr/bin/vim; needsterminal
+application/x-info; /usr/bin/info --subnodes -o /dev/stdout -f '%s' 2>/dev/null; copiousoutput; description=GNU Info document
+application/x-tar; /bin/tar tvf '%s'; print=/bin/tar tvf - | print text/plain:-; copiousoutput
+application/x-gtar; /bin/tar tvf '%s'; print=/bin/tar tvf - | print text/plain:-; copiousoutput
+application/x-ustar; /bin/tar tvf '%s'; print=/bin/tar tvf - | print text/plain:-; copiousoutput
+text/*; more %s; needsterminal
+text/*; view %s; edit=vi %s; compose=vi %s; needsterminal
+application/vnd.debian.binary-package; /usr/lib/mime/debian-view %s; needsterminal; description=Debian GNU/Linux Package; nametemplate=%s.deb

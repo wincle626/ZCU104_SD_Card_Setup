@@ -1,0 +1,15 @@
+00dae486ea90cc383bc0a190c4e71ee0  usr/bin/gapplication
+d967439ab89975078a7595ae1c63dd06  usr/bin/gdbus
+da99ee523bdc343e304f97c93c925a8d  usr/bin/gresource
+50263aecfc8c90fae4724e8b741981b3  usr/bin/gsettings
+c2b56ee2812496e991636840990adc08  usr/share/bash-completion/completions/gapplication
+3c6022ac0bf85f2f374358a52456e803  usr/share/bash-completion/completions/gdbus
+305f04df5006e28bbee350d1f9f7f973  usr/share/bash-completion/completions/gresource
+f0ab3f4089f65a153d77d50866df91bc  usr/share/bash-completion/completions/gsettings
+37aa7cdc50eb504646d52e9263328ac9  usr/share/doc/libglib2.0-bin/copyright
+897d81352dacd635708e0b0d14707a95  usr/share/man/man1/gdbus.1.gz
+134aa2a22a7dfd3703cf8b274adb679f  usr/share/man/man1/gio-querymodules.1.gz
+73d1936924ab7fb3291423cbda6400a7  usr/share/man/man1/glib-compile-resources.1.gz
+7300a559d723bd5964ecbc76e2e1a377  usr/share/man/man1/glib-compile-schemas.1.gz
+074f8122d9aee1ce7fa13c070bfd5a42  usr/share/man/man1/gresource.1.gz
+96a65b60cdad6ab21fbdba57c05cf692  usr/share/man/man1/gsettings.1.gz

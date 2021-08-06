@@ -1,0 +1,16 @@
+libpam-cgfs
+===========
+
+In the past, Ubuntu carried a systemd patch to provide logged-in users with
+cgroups which they could administer.  This can now be done by the pam_cgfs
+module.
+
+By default, pam_cgfs will create a new cgroup for the user for all
+controllers other than name=systemd, but if '-c <controllerlist>' is passed
+then only the listed controllers are handled.  (controllerlist must be
+comma-delimited) The default list of controllers to handle is listed in
+/usr/share/pam-configs/cgfs, and is set to only freezer and memory.  To edit
+the list, do so in /etc/pam.d/common-session.
+
+Note, this conflicts with the libpam-cgm module which also creates cgroups for
+logged-in users, but does so by talking to the cgmanager or cgproxy daemon.

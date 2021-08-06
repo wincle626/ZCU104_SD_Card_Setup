@@ -1,0 +1,4 @@
+ed23b9f2ec9c21955502af00f2e921d7  usr/lib/aarch64-linux-gnu/libsmbclient.so.0.2.3
+ee6fb62bd524814c393998fe197e3963  usr/share/doc/libsmbclient/copyright
+510a957f89de3717f2ca9f217c2f6702  usr/share/lintian/overrides/libsmbclient
+6ca11f58e6c1dc900dbf8b36f7240cb1  usr/share/man/man7/libsmbclient.7.gz

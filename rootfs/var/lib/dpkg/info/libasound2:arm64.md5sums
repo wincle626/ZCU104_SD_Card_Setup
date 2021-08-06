@@ -1,0 +1,8 @@
+73b95611bdb2451ce48e16c520eb25e6  usr/lib/aarch64-linux-gnu/alsa-lib/smixer/smixer-ac97.so
+41ce56e41fb1e21fa6facdc0f30e22e7  usr/lib/aarch64-linux-gnu/alsa-lib/smixer/smixer-hda.so
+9d5326ce44418c01f7caa61d0aba0a17  usr/lib/aarch64-linux-gnu/alsa-lib/smixer/smixer-sbase.so
+78e16fe58af43815d3a34de066194847  usr/lib/aarch64-linux-gnu/libasound.so.2.0.0
+e4a904cb9280a41da02bc54b475a3f7c  usr/share/doc/libasound2/NEWS.Debian.gz
+de4b143fb1af85c83b419d5043aa204e  usr/share/doc/libasound2/changelog.Debian.gz
+2c0a07f354a690f72462dfa9631227d8  usr/share/doc/libasound2/copyright
+452e21ca23de6b02cc7f581e4a40ce42  usr/share/doc/libasound2/examples/asoundrc.txt.gz

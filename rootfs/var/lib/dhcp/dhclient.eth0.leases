@@ -1,0 +1,40 @@
+lease {
+  interface "eth0";
+  fixed-address 172.23.19.138;
+  filename "pxelinux.0";
+  server-name "xhd-pvapdhp01";
+  option subnet-mask 255.255.252.0;
+  option time-offset 19800;
+  option dhcp-lease-time 172800;
+  option routers 172.23.19.254;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 172.23.84.250;
+  option domain-name-servers 172.23.84.201,172.23.84.203,172.23.84.204;
+  option broadcast-address 172.23.19.255;
+  option ntp-servers 172.22.160.4;
+  option netbios-name-servers 172.22.150.209,149.199.36.100;
+  option domain-name "xilinx.com xlnx.xilinx.com";
+  renew 3 2019/06/19 22:41:29;
+  rebind 4 2019/06/20 22:11:46;
+  expire 5 2019/06/21 04:11:46;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.23.19.138;
+  filename "pxelinux.0";
+  server-name "xhd-pvapdhp01";
+  option subnet-mask 255.255.252.0;
+  option time-offset 19800;
+  option dhcp-lease-time 172800;
+  option routers 172.23.19.254;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 172.23.84.250;
+  option domain-name-servers 172.23.84.201,172.23.84.203,172.23.84.204;
+  option broadcast-address 172.23.19.255;
+  option ntp-servers 172.22.160.4;
+  option netbios-name-servers 172.22.150.209,149.199.36.100;
+  option domain-name "xilinx.com xlnx.xilinx.com";
+  renew 3 2019/06/19 07:00:41;
+  rebind 3 2019/06/19 07:00:41;
+  expire 3 2019/06/19 07:00:41;
+}

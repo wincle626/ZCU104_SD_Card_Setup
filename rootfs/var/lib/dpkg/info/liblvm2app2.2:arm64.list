@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/liblvm2app2.2
+/usr/share/doc/liblvm2app2.2/copyright
+/lib
+/lib/aarch64-linux-gnu
+/lib/aarch64-linux-gnu/liblvm2app.so.2.2
+/usr/share/doc/liblvm2app2.2/changelog.Debian.gz

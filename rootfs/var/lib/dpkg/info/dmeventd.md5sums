@@ -1,0 +1,10 @@
+a82ba01d9c56860d68c2216c1dba568b  lib/aarch64-linux-gnu/device-mapper/libdevmapper-event-lvm2mirror.so
+fed873e6612081eeafbbd9cc3c392c78  lib/aarch64-linux-gnu/device-mapper/libdevmapper-event-lvm2raid.so
+6e3fe28226e66bd3e2db4c0010b20860  lib/aarch64-linux-gnu/device-mapper/libdevmapper-event-lvm2snapshot.so
+f38773bf95bf994ff1108203fd1212a7  lib/aarch64-linux-gnu/device-mapper/libdevmapper-event-lvm2thin.so
+faaf15d322c9e239e6f6dd39fb771cac  lib/aarch64-linux-gnu/libdevmapper-event-lvm2.so.2.02
+018f9f539ed250647b725fc32ab86d58  lib/systemd/system/dm-event.service
+51236e925b66f616904e73e9030b8d85  lib/systemd/system/dm-event.socket
+ebc072efe8fe997d0294f8fc03d3d2d9  sbin/dmeventd
+0c26eedb7cf48e3f56fc63ece2d40190  usr/share/doc/dmeventd/copyright
+c27c4fc06511cc1f68473479e23dfdce  usr/share/man/man8/dmeventd.8.gz

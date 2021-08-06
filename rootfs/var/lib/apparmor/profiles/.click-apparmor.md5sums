@@ -1,0 +1,10 @@
+814d150b733d03e7cbdb022e7e7b2b5b  usr/bin/aa-clickhook
+952e1670e90030c5dca019961849c0bd  usr/bin/aa-clickquery
+6b3b417be7d65bebc043b24a7476e4c3  usr/bin/aa-clicktool
+5b15a602ce1670441c2617aa72c0a0ac  usr/bin/aa-exec-click
+2aadc2afa885894f6c202a1f366c9e96  usr/share/click/hooks/apparmor.hook
+0964bf0464aeb121670669b6f6a5580c  usr/share/doc/click-apparmor/changelog.gz
+031de9a8a4ac635454d2b6f60dd408c8  usr/share/doc/click-apparmor/copyright
+b39867437bd0d077595d3c533e973626  usr/share/man/man1/aa-clickhook.1.gz
+ef2b38ef36191415749ca94c5e453577  usr/share/man/man1/aa-clickquery.1.gz
+3b4fc33eb746e82d1dc4e8c8d16058ed  usr/share/man/man1/aa-exec-click.1.gz

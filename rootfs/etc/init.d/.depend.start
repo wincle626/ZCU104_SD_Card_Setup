@@ -1,0 +1,18 @@
+TARGETS = rsyslog lvm2-lvmetad lxcfs uuidd lvm2-lvmpolld unattended-upgrades lxd killprocs apport dbus atd mdadm irqbalance single ssh rsync acpid cron avahi-daemon bluetooth cups-browsed cups plymouth rc.local ondemand
+INTERACTIVE =
+dbus: rsyslog
+atd: rsyslog
+mdadm: rsyslog
+irqbalance: rsyslog
+single: killprocs
+ssh: rsyslog
+rsync: rsyslog
+acpid: rsyslog
+cron: rsyslog
+avahi-daemon: dbus rsyslog
+bluetooth: rsyslog dbus
+cups-browsed: rsyslog
+cups: rsyslog
+plymouth: avahi-daemon dbus rsyslog lvm2-lvmetad lxcfs uuidd lvm2-lvmpolld unattended-upgrades lxd atd bluetooth mdadm cups-browsed irqbalance cups ssh rsync acpid cron apport
+rc.local: avahi-daemon dbus rsyslog lvm2-lvmetad lxcfs uuidd lvm2-lvmpolld unattended-upgrades lxd atd bluetooth mdadm cups-browsed irqbalance cups ssh rsync acpid cron apport
+ondemand: avahi-daemon dbus rsyslog lvm2-lvmetad lxcfs uuidd lvm2-lvmpolld unattended-upgrades lxd atd bluetooth mdadm cups-browsed irqbalance cups ssh rsync acpid cron apport

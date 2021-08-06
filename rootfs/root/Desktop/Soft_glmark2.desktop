@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[C]=/
+Name[C]=Soft_glmark2
+Exec=/root/run_soft_glmark2.sh
+Name=Soft_glmark2
+Icon=/root/glmark2.png

@@ -1,0 +1,102 @@
+This is version 1.5 of the GNU miscfiles distribution.
+
+This distribution includes files not of crucial importance for system
+administration or operation, but which have come to be common on
+various systems over the years.
+
+If you have any suggestions about files to add to this distribution,
+or corrections to the files here, please send them to
+bug-miscfiles@gnu.org.
+
+The files in version 1.5 are:
+
+abbrevs.talk, abbrevs.gen:
+    Some common abbreviations used in electronic communication
+
+airport
+    List of three letter codes for some major airports
+
+ascii
+    A map of the ascii character set.
+
+bcp-index.txt
+    Best Current Practice indexes. Internet standardization documents.
+
+birthtoken
+    Traditional stone and flower for each month.
+
+cities.dat
+    geographic coordinates of many major cities
+
+connectives
+    English `connectives'; prepositions, pronouns, and the like.
+
+countries
+    country abbreviations and names and capital cities
+
+currency
+    currency abbreviations and names
+
+fyi-index.txt
+    For Your Information indexes. Internet standardization documents.
+
+GNU-manifesto
+  The GNU Manifesto
+
+inter.phone
+    International country telephone codes
+
+languages
+    two-letter codes for languages, from ISO 639-1.
+
+latin1
+    like `ascii'; describing the ISO Latin-1 character set
+
+mailinglists
+    Description of all the public Project GNU related mailing lists.
+
+na.phone
+    North American (+1) telephone area codes
+
+na.postalcodes
+    postal codes for US states and Canadian provinces
+
+operator
+    Precedence table for operators in the C language
+
+propernames
+    Some common proper names
+
+rfc-index.txt
+    Request for comments indexes. Internet standardization documents.
+
+std-index.txt
+    Standard indexes of internet standardization documents.
+
+std-index.txt
+    Indexes of internet standardization documents.
+
+top-level.domains
+    Top-level domains, based on IANA
+
+unicode
+  The official Unicode character set table
+
+web2
+  Webster's Second International English wordlist
+
+web2a
+  Webster's Second Internations appendix english wordlist
+
+
+See the file INSTALL for installation instructions.
+
+Please send all bug reports by electronic mail to:
+    bug-miscfiles@gnu.org
+
+
+Note: When possible, geographical names try to reflect the common modern
+English names of the cities, not the local one. If a local spelling differs
+from the English spelling only by using a different form of the same Latin
+letter, the modified letter is used. This is according to R M Ritter, *The Oxford Guide
+to Style*, Oxford University Press, 2002.

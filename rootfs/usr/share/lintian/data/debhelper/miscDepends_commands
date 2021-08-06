@@ -1,0 +1,28 @@
+# This file is generated from private/refresh-debhelper-data.
+# It was generated on 2015-09-19 15:08
+
+dh_apache2
+dh_cme_upgrade
+dh_dkms
+dh_elpa
+dh_gconf
+dh_gtkmodules
+dh_installcatalogs
+dh_installdebconf
+dh_installdocs
+dh_installgsettings
+dh_installlisting
+dh_installtex
+dh_installxfonts
+dh_installxmlcatalogs
+dh_libva
+dh_linktree
+dh_lisp
+dh_nativejava
+dh_pangomodules
+dh_php5
+dh_phppear
+dh_pidgin
+dh_pyppd
+dh_systemd_enable
+dh_ucf

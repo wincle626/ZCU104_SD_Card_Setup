@@ -1,0 +1,15 @@
+TARGETS = lvm2-lvmetad lxcfs uuidd lvm2-lvmpolld unattended-upgrades lxd resolvconf atd mdadm irqbalance ufw bluetooth cups-browsed cups plymouth urandom open-iscsi avahi-daemon iscsid sendsigs rsyslog umountnfs.sh hwclock.sh networking umountfs cryptdisks cryptdisks-early umountroot mdadm-waitidle halt reboot
+avahi-daemon: cups-browsed
+iscsid: open-iscsi
+sendsigs: avahi-daemon lxcfs uuidd open-iscsi iscsid unattended-upgrades lxd atd bluetooth mdadm plymouth cups-browsed irqbalance
+rsyslog: avahi-daemon sendsigs atd bluetooth mdadm cups-browsed irqbalance cups
+umountnfs.sh: avahi-daemon lxcfs uuidd rsyslog unattended-upgrades lxd atd bluetooth plymouth cups-browsed irqbalance sendsigs
+hwclock.sh: uuidd rsyslog atd cups-browsed
+networking: umountnfs.sh open-iscsi iscsid cups-browsed
+umountfs: urandom resolvconf avahi-daemon lvm2-lvmetad lxcfs uuidd umountnfs.sh open-iscsi iscsid lvm2-lvmpolld unattended-upgrades lxd atd hwclock.sh bluetooth networking mdadm plymouth cups-browsed irqbalance
+cryptdisks: umountfs
+cryptdisks-early: cryptdisks umountfs
+umountroot: umountfs cryptdisks cryptdisks-early
+mdadm-waitidle: umountroot
+halt: mdadm-waitidle umountroot
+reboot: mdadm-waitidle umountroot

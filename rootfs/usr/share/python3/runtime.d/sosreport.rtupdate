@@ -1,0 +1,7 @@
+#! /bin/sh
+set -e
+
+if [ "$1" = rtupdate ]; then
+	py3clean -p sosreport /usr/share/sosreport
+	py3compile -p sosreport -V 3.3- /usr/share/sosreport
+fi

@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[C]=/
+Name[C]=3D Car Model
+Exec=/root/osg/run_osg.sh
+Name=3D Car Model
+Icon=/root/ferrari.jpg

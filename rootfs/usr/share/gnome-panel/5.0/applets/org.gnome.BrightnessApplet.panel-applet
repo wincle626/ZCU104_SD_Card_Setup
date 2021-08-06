@@ -1,0 +1,27 @@
+[Applet Factory]
+Id=BrightnessAppletFactory
+Location=/usr/lib/gnome-applets/gnome-brightness-applet
+Name=Brightness Applet Factory
+Description=Factory for Brightness Applet
+
+[BrightnessApplet]
+Name=Brightness Applet
+Name[cs]=Aplet jasu
+Name[de]=Helligkeits-Applet
+Name[hu]=Fényerőszabályzó
+Name[pl]=Aplet jasności
+Name[pt]=Applet Brilho
+Name[pt_BR]=Miniaplicativo de brilho
+Description=Adjusts Laptop panel brightness
+Description[cs]=Upravuje jas displeje notebooku
+Description[de]=Passt die Helligkeit des Laptop-Bildschirms an
+Description[hu]=A noteszgépkijelző fényerejének szabályozása
+Description[pl]=Dopasowuje jasność wyświetlacza laptopa
+Description[pt]=Ajusta o brilho do painel do portátil
+Description[pt_BR]=Ajuste o brilho do painel do lapto
+Icon=gnome-brightness-applet
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnome-applets
+X-GNOME-Bugzilla-Component=Brightness Applet (brightness)
+X-GNOME-Bugzilla-Version=3.18.2
+X-GNOME-Bugzilla-OtherBinaries=gnome-brightness-applet

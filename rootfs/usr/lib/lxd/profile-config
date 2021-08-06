@@ -1,0 +1,37 @@
+#!/bin/sh -e
+
+[ ! -e /etc/default/lxd-bridge ] && exit 0
+
+. /etc/default/lxd-bridge
+
+# We only run LXD configuration if in setup mode
+[ -e "/var/lib/lxd/.setup_mode" ] || exit 0
+
+# Only apply the configuration if the bridge is defined
+if [ "$(lxc profile device get default eth0 nictype --force-local 2>/dev/null)" = "bridged" ]; then
+    lxc profile unset default user.network_mode --force-local || true
+    lxc profile unset default environment.http_proxy --force-local || true
+
+    if [ "${USE_LXD_BRIDGE}" = "false" ]; then
+        if [ -n "${LXD_BRIDGE}" ]; then
+            lxc profile device set default eth0 parent ${LXD_BRIDGE} --force-local || true
+        fi
+    else
+        lxc profile device set default eth0 parent ${LXD_BRIDGE} --force-local || true
+        if [ -z "${LXD_IPV4_ADDR}" ] && [ -z "${LXD_IPV6_ADDR}" ]; then
+            lxc profile set default user.network_mode "link-local" --force-local || true
+        fi
+
+        if [ "${LXD_IPV6_PROXY}" = "true" ]; then
+            lxc profile set default environment.http_proxy "http://[fe80::1%eth0]:13128" --force-local || true
+        fi
+    fi
+fi
+
+# Get LXD to start containers now
+lxd ready
+
+# If we fail, don't get stuck in setup mode
+rm -f /var/lib/lxd/.setup_mode
+
+exit 0

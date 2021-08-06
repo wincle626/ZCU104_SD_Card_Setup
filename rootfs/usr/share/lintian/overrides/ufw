@@ -1,0 +1,7 @@
+# Don't need to supply 'stop' for a firewall
+ufw binary: postrm-does-not-call-updaterc.d-for-init.d-script
+# These are intentionally not executable
+ufw binary: script-not-executable usr/share/ufw/after.init
+ufw binary: script-not-executable usr/share/ufw/before.init
+# We intentionally don't want to stop the firewall
+ufw binary: init.d-script-possible-missing-stop etc/init.d/ufw 0 6

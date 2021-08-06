@@ -1,0 +1,6 @@
+7393c8c61d30a945bdd21d4385e96dd3  usr/bin/ubuntu-advantage
+916d441bef10cf8c1d77c4b7acbeeb9e  usr/share/doc/ubuntu-advantage-tools/changelog.gz
+9985bc04b7dae54155c6175dc6f8c7e6  usr/share/doc/ubuntu-advantage-tools/copyright
+63d9154e40d8b2e54183d60b590ec7ca  usr/share/keyrings/ubuntu-esm-keyring.gpg
+38fa2130e614e36df4e7282b15eb5ac1  usr/share/keyrings/ubuntu-fips-keyring.gpg
+17088ab6ea268337ec737ca5773c5304  usr/share/man/man1/ubuntu-advantage.1.gz

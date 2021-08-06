@@ -1,0 +1,11 @@
+c78a411ee8c88e7063a94e2c4e9534af  usr/lib/aarch64-linux-gnu/gnome-vfs-2.0/gnome-vfs-daemon
+3400a2aceba58754451b33f292268849  usr/lib/aarch64-linux-gnu/gnome-vfs-2.0/modules/libcomputer.so
+b9a08c9691ef587bdff1ed1040e153e9  usr/lib/aarch64-linux-gnu/gnome-vfs-2.0/modules/libdns-sd.so
+30e6fc00d8193b9e696349a7b5698a98  usr/lib/aarch64-linux-gnu/gnome-vfs-2.0/modules/libfile.so
+63d9bf22d9e2f971347bb3b707358bf5  usr/lib/aarch64-linux-gnu/gnome-vfs-2.0/modules/libgzip.so
+1baea809b2e5793ed59365be2c0c167f  usr/lib/aarch64-linux-gnu/gnome-vfs-2.0/modules/libnetwork.so
+f205c8cf37cf09dfbe1bbd37b4595dba  usr/lib/aarch64-linux-gnu/gnome-vfs-2.0/modules/libsftp.so
+b7357abc18a67cb47229ce7f957813eb  usr/lib/aarch64-linux-gnu/gnome-vfs-2.0/modules/libtar.so
+1f5970028802b90def87871eef13b959  usr/lib/aarch64-linux-gnu/gnome-vfs-2.0/modules/libvfs-test.so
+2b69cd7016a2da61ed509f7c16224dc5  usr/lib/aarch64-linux-gnu/libgnomevfs-2.so.0.2400.4
+1ce196f7cadc5459ea5c78769b66e801  usr/share/doc/libgnomevfs2-0/copyright

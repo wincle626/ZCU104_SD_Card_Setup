@@ -1,0 +1,299 @@
+[  1669.938] 
+X.Org X Server 1.18.4
+Release Date: 2016-07-19
+[  1669.938] X Protocol Version 11, Revision 0
+[  1669.938] Build Operating System: Linux 4.4.0-131-generic aarch64 Ubuntu
+[  1669.938] Current Operating System: Linux ubuntu 4.14.0-xilinx-v2018.3 #1 SMP Wed Feb 13 13:29:20 UTC 2019 aarch64
+[  1669.938] Kernel command line: root=/dev/mmcblk0p2 rw rootwait
+[  1669.938] Build Date: 10 August 2018  12:01:21PM
+[  1669.938] xorg-server 2:1.18.4-0ubuntu0.8 (For technical support please see http://www.ubuntu.com/support) 
+[  1669.938] Current version of pixman: 0.33.6
+[  1669.938] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[  1669.938] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[  1669.938] (==) Log file: "/var/log/Xorg.1.log", Time: Thu Feb 14 18:58:18 2019
+[  1669.939] (==) Using config file: "/etc/X11/xorg.conf"
+[  1669.939] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[  1669.939] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[  1669.940] (==) No Layout section.  Using the first Screen section.
+[  1669.940] (**) |-->Screen "DefaultScreen" (0)
+[  1669.940] (**) |   |-->Monitor "<default monitor>"
+[  1669.940] (**) |   |-->Device "ZynqMP"
+[  1669.940] (**) |   |-->GPUDevice "ZynqMP"
+[  1669.940] (==) No monitor specified for screen "DefaultScreen".
+	Using a default monitor configuration.
+[  1669.940] (==) Automatically adding devices
+[  1669.940] (==) Automatically enabling devices
+[  1669.940] (==) Automatically adding GPU devices
+[  1669.940] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[  1669.941] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[  1669.941] 	Entry deleted from font path.
+[  1669.941] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[  1669.941] 	Entry deleted from font path.
+[  1669.941] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[  1669.941] 	Entry deleted from font path.
+[  1669.941] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[  1669.941] 	Entry deleted from font path.
+[  1669.941] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[  1669.941] 	Entry deleted from font path.
+[  1669.941] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[  1669.941] (==) ModulePath set to "/usr/lib/aarch64-linux-gnu/xorg/extra-modules,/usr/lib/xorg/extra-modules,/usr/lib/xorg/modules"
+[  1669.941] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[  1669.941] (II) Loader magic: 0x5560dc4d80
+[  1669.941] (II) Module ABI versions:
+[  1669.941] 	X.Org ANSI C Emulation: 0.4
+[  1669.941] 	X.Org Video Driver: 20.0
+[  1669.941] 	X.Org XInput driver : 22.1
+[  1669.941] 	X.Org Server Extension : 9.0
+[  1669.943] (--) using VT number 3
+
+[  1669.943] (II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[  1669.944] (II) xfree86: Adding drm device (/dev/dri/card0)
+[  1669.945] (II) no primary bus or device found
+[  1669.945] 	falling back to /sys/devices/platform/amba/fd4a0000.zynqmp-display/drm/card0
+[  1669.945] (II) LoadModule: "glx"
+[  1669.945] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[  1669.948] (II) Module glx: vendor="X.Org Foundation"
+[  1669.948] 	compiled for 1.18.4, module version = 1.0.0
+[  1669.948] 	ABI class: X.Org Server Extension, version 9.0
+[  1669.948] (==) AIGLX enabled
+[  1669.949] (II) LoadModule: "armsoc"
+[  1669.949] (II) Loading /usr/lib/xorg/modules/drivers/armsoc_drv.so
+[  1669.949] (II) Module armsoc: vendor="X.Org Foundation"
+[  1669.949] 	compiled for 1.18.4, module version = 1.1.0
+[  1669.949] 	Module class: X.Org Video Driver
+[  1669.949] 	ABI class: X.Org Video Driver, version 20.0
+[  1669.949] (II) ARMSOC: Driver for ARM Mali compatible chipsets
+[  1669.950] (WW) Falling back to old probe method for armsoc
+[  1669.950] (II) No BusID or DriverName specified - opening /dev/dri/card0
+[  1669.950] (II) Got BusID fd4a0000.zynqmp-display
+[  1669.978] (II) Opened DRM
+[  1669.978] (II)    DeviceName is [/dev/dri/card0]
+[  1669.978] (II)    bus_id is [fd4a0000.zynqmp-display]
+[  1669.979] (II)    DriverName is [xlnx]
+[  1669.979] (II)    version is [1.0.0]
+[  1669.979] (II) Screen:0,  CRTC:0
+[  1669.995] (II) No BusID or DriverName specified - opening /dev/dri/card0
+[  1669.995] (II) Got BusID fd4a0000.zynqmp-display
+[  1670.028] (II) Opened DRM
+[  1670.028] (II)    DeviceName is [/dev/dri/card0]
+[  1670.028] (II)    bus_id is [fd4a0000.zynqmp-display]
+[  1670.028] (II)    DriverName is [xlnx]
+[  1670.029] (II)    version is [1.0.0]
+[  1670.029] (II) Screen:1,  CRTC:1
+[  1670.045] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[  1670.045] (EE) Screen 1 deleted because of no matching config section.
+[  1670.045] (II) UnloadModule: "armsoc"
+[  1670.045] (II) ARMSOC(0): Creating default Display subsection in Screen section
+	"DefaultScreen" for depth/fbbpp 16/16
+[  1670.045] (**) ARMSOC(0): Depth 16, (--) framebuffer bpp 16
+[  1670.045] (==) ARMSOC(0): RGB weight 565
+[  1670.045] (==) ARMSOC(0): Using gamma correction (1.0, 1.0, 1.0)
+[  1670.045] (==) ARMSOC(0): Default visual is TrueColor
+[  1670.045] (II) No BusID or DriverName specified - opening /dev/dri/card0
+[  1670.045] (II) Got BusID fd4a0000.zynqmp-display
+[  1670.078] (II) Opened DRM
+[  1670.078] (II)    DeviceName is [/dev/dri/card0]
+[  1670.078] (II)    bus_id is [fd4a0000.zynqmp-display]
+[  1670.078] (II)    DriverName is [xlnx]
+[  1670.079] (II)    version is [1.0.0]
+[  1670.079] (II) ARMSOC(0): Chipset: Mali
+[  1670.079] (**) ARMSOC(0): Option "Debug" "false"
+[  1670.079] (**) ARMSOC(0): Option "DRICard" "0"
+[  1670.079] (II) ARMSOC(0): Buffer Flipping is Enabled
+[  1670.079] (II) ARMSOC(0): umplock is Enabled
+[  1670.079] (II) ARMSOC(0): Setting the video modes ...
+[  1670.079] (II) ARMSOC(0): Got CRTC: 0 (id: 36)
+[  1670.114] (II) ARMSOC(0): Output DP-1 has no monitor section
+[  1670.149] (II) ARMSOC(0): EDID for output DP-1
+[  1670.149] (II) ARMSOC(0): Manufacturer: MTC  Model: 1bf  Serial#: 1666187265
+[  1670.149] (II) ARMSOC(0): Year: 2012  Week: 12
+[  1670.149] (II) ARMSOC(0): EDID Version: 1.4
+[  1670.149] (II) ARMSOC(0): Digital Display Input
+[  1670.149] (II) ARMSOC(0): 10 bits per channel
+[  1670.149] (II) ARMSOC(0): Digital interface is DisplayPort
+[  1670.149] (II) ARMSOC(0): Max Image Size [cm]: horiz.: 48  vert.: 27
+[  1670.149] (II) ARMSOC(0): Gamma: 2.20
+[  1670.149] (II) ARMSOC(0): DPMS capabilities: Off
+[  1670.149] (II) ARMSOC(0): Supported color encodings: RGB 4:4:4 YCrCb 4:4:4 YCrCb 4:2:2
+[  1670.149] (II) ARMSOC(0): First detailed timing is preferred mode
+[  1670.149] (II) ARMSOC(0): Preferred mode is native pixel format and refresh rate
+[  1670.149] (II) ARMSOC(0): redX: 0.648 redY: 0.339   greenX: 0.282 greenY: 0.603
+[  1670.149] (II) ARMSOC(0): blueX: 0.143 blueY: 0.070   whiteX: 0.313 whiteY: 0.329
+[  1670.149] (II) ARMSOC(0): Supported established timings:
+[  1670.149] (II) ARMSOC(0): 720x400@70Hz
+[  1670.149] (II) ARMSOC(0): 640x480@60Hz
+[  1670.149] (II) ARMSOC(0): 640x480@67Hz
+[  1670.149] (II) ARMSOC(0): 800x600@56Hz
+[  1670.149] (II) ARMSOC(0): 800x600@60Hz
+[  1670.149] (II) ARMSOC(0): 1024x768@60Hz
+[  1670.149] (II) ARMSOC(0): 1024x768@70Hz
+[  1670.149] (II) ARMSOC(0): Manufacturer's mask: 0
+[  1670.149] (II) ARMSOC(0): Supported standard timings:
+[  1670.149] (II) ARMSOC(0): #0: hsize: 1152  vsize 864  refresh: 75  vid: 20337
+[  1670.149] (II) ARMSOC(0): #1: hsize: 1280  vsize 800  refresh: 60  vid: 129
+[  1670.149] (II) ARMSOC(0): #2: hsize: 1280  vsize 1024  refresh: 60  vid: 32897
+[  1670.149] (II) ARMSOC(0): #3: hsize: 1440  vsize 900  refresh: 60  vid: 149
+[  1670.149] (II) ARMSOC(0): #4: hsize: 1920  vsize 1080  refresh: 60  vid: 49361
+[  1670.149] (II) ARMSOC(0): Supported detailed timing:
+[  1670.149] (II) ARMSOC(0): clock: 148.5 MHz   Image Size:  477 x 268 mm
+[  1670.149] (II) ARMSOC(0): h_active: 1920  h_sync: 2008  h_sync_end 2052 h_blank_end 2200 h_border: 0
+[  1670.149] (II) ARMSOC(0): v_active: 1080  v_sync: 1084  v_sync_end 1089 v_blanking: 1125 v_border: 0
+[  1670.149] (II) ARMSOC(0): Ranges: V min: 56 V max: 75 Hz, H min: 30 H max: 83 kHz, PixClock max 175 MHz
+[  1670.150] (II) ARMSOC(0): Monitor name: DisplayPort
+[  1670.150] (II) ARMSOC(0): Serial No: L56051794302
+[  1670.150] (II) ARMSOC(0): Supported detailed timing:
+[  1670.150] (II) ARMSOC(0): clock: 148.5 MHz   Image Size:  477 x 268 mm
+[  1670.150] (II) ARMSOC(0): h_active: 1920  h_sync: 2008  h_sync_end 2052 h_blank_end 2200 h_border: 0
+[  1670.150] (II) ARMSOC(0): v_active: 1080  v_sync: 1084  v_sync_end 1089 v_blanking: 1125 v_border: 0
+[  1670.150] (II) ARMSOC(0): Supported detailed timing:
+[  1670.150] (II) ARMSOC(0): clock: 74.2 MHz   Image Size:  477 x 268 mm
+[  1670.150] (II) ARMSOC(0): h_active: 1920  h_sync: 2008  h_sync_end 2052 h_blank_end 2200 h_border: 0
+[  1670.150] (II) ARMSOC(0): v_active: 540  v_sync: 542  v_sync_end 547 v_blanking: 562 v_border: 0
+[  1670.150] (II) ARMSOC(0): Supported detailed timing:
+[  1670.150] (II) ARMSOC(0): clock: 74.2 MHz   Image Size:  477 x 268 mm
+[  1670.150] (II) ARMSOC(0): h_active: 1920  h_sync: 2448  h_sync_end 2492 h_blank_end 2640 h_border: 0
+[  1670.150] (II) ARMSOC(0): v_active: 540  v_sync: 542  v_sync_end 547 v_blanking: 562 v_border: 0
+[  1670.150] (II) ARMSOC(0): Supported detailed timing:
+[  1670.150] (II) ARMSOC(0): clock: 148.5 MHz   Image Size:  477 x 268 mm
+[  1670.150] (II) ARMSOC(0): h_active: 1920  h_sync: 2448  h_sync_end 2492 h_blank_end 2640 h_border: 0
+[  1670.150] (II) ARMSOC(0): v_active: 1080  v_sync: 1084  v_sync_end 1089 v_blanking: 1125 v_border: 0
+[  1670.150] (II) ARMSOC(0): Number of EDID sections to follow: 1
+[  1670.150] (II) ARMSOC(0): EDID (in hex):
+[  1670.150] (II) ARMSOC(0): 	00ffffffffffff003683bf0101005063
+[  1670.150] (II) ARMSOC(0): 	0c160104b5301b783a3585a656489a24
+[  1670.150] (II) ARMSOC(0): 	125054b30c00714f810081809500d1c0
+[  1670.150] (II) ARMSOC(0): 	010101010101023a801871382d40582c
+[  1670.150] (II) ARMSOC(0): 	4500dd0c1100001e000000fd00384b1e
+[  1670.150] (II) ARMSOC(0): 	5311000a202020202020000000fc0044
+[  1670.150] (II) ARMSOC(0): 	6973706c6179506f72740a20000000ff
+[  1670.150] (II) ARMSOC(0): 	004c35363035313739343330320a0199
+[  1670.150] (II) ARMSOC(0): 	020322724f010203040590111213149f
+[  1670.150] (II) ARMSOC(0): 	0607151623097f078301000065030c00
+[  1670.150] (II) ARMSOC(0): 	1000023a801871382d40582c4500dd0c
+[  1670.150] (II) ARMSOC(0): 	1100001e011d8018711c1620582c2500
+[  1670.150] (II) ARMSOC(0): 	dd0c1100009e011d80d0721c1620102c
+[  1670.150] (II) ARMSOC(0): 	2580dd0c1100009e023a80d072382d40
+[  1670.151] (II) ARMSOC(0): 	102c4580dd0c1100001e000000000000
+[  1670.151] (II) ARMSOC(0): 	000000000000000000000000000000b2
+[  1670.151] (II) ARMSOC(0): EDID vendor "MTC", prod id 447
+[  1670.151] (II) ARMSOC(0): Using EDID range info for horizontal sync
+[  1670.151] (II) ARMSOC(0): Using EDID range info for vertical refresh
+[  1670.151] (II) ARMSOC(0): Printing DDC gathered Modelines:
+[  1670.151] (II) ARMSOC(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[  1670.151] (II) ARMSOC(0): Modeline "1920x1080i"x0.0   74.25  1920 2008 2052 2200  1080 1084 1094 1125 interlace +hsync +vsync (33.8 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "1920x1080i"x0.0   74.25  1920 2448 2492 2640  1080 1084 1094 1125 interlace +hsync +vsync (28.1 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "1280x800"x0.0   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "1440x900"x0.0  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "1920x1080"x60.0  172.80  1920 2040 2248 2576  1080 1081 1084 1118 -hsync +vsync (67.1 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "1440x480i"x0.0   27.00  1440 1478 1602 1716  480 488 494 525 interlace -hsync -vsync (15.7 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "1440x576i"x0.0   27.00  1440 1464 1590 1728  576 580 586 625 interlace -hsync -vsync (15.6 kHz e)
+[  1670.151] (II) ARMSOC(0): Modeline "1920x1080"x0.0   74.25  1920 2558 2602 2750  1080 1084 1089 1125 +hsync +vsync (27.0 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "1440x240"x0.0   27.00  1440 1478 1602 1716  240 244 247 262 -hsync -vsync (15.7 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "1440x288"x0.0   27.00  1440 1464 1590 1728  288 290 293 312 -hsync -vsync (15.6 kHz e)
+[  1670.152] (II) ARMSOC(0): Printing probed modes for output DP-1
+[  1670.152] (II) ARMSOC(0): Modeline "1920x1080"x60.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[  1670.152] (II) ARMSOC(0): Modeline "1920x1080"x50.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "1920x1080"x59.9  148.35  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.4 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "1280x720"x60.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "1280x720"x50.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "1280x720"x59.9   74.18  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "1024x768"x70.1   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "720x576"x50.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "720x480"x60.0   27.03  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "720x480"x59.9   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "640x480"x66.7   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "640x480"x60.0   25.20  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[  1670.152] (II) ARMSOC(0): Modeline "720x400"x70.1   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[  1670.152] (II) ARMSOC(0): Output DP-1 connected
+[  1670.152] (II) ARMSOC(0): Using exact sizes for initial modes
+[  1670.152] (II) ARMSOC(0): Output DP-1 using initial mode 1920x1080 +0+0
+[  1670.152] (II) ARMSOC(0): Got KMS resources
+[  1670.152] (**) ARMSOC(0): Display dimensions: (480, 270) mm
+[  1670.153] (**) ARMSOC(0): DPI set to (101, 101)
+[  1670.153] (II) Loading sub module "dri2"
+[  1670.153] (II) LoadModule: "dri2"
+[  1670.153] (II) Module "dri2" already built-in
+[  1670.153] (II) Loading sub module "exa"
+[  1670.153] (II) LoadModule: "exa"
+[  1670.153] (II) Loading /usr/lib/xorg/modules/libexa.so
+[  1670.153] (II) Module exa: vendor="X.Org Foundation"
+[  1670.153] 	compiled for 1.18.4, module version = 2.6.0
+[  1670.153] 	ABI class: X.Org Video Driver, version 20.0
+[  1670.153] (II) Loading sub module "fb"
+[  1670.153] (II) LoadModule: "fb"
+[  1670.154] (II) Loading /usr/lib/xorg/modules/libfb.so
+[  1670.154] (II) Module fb: vendor="X.Org Foundation"
+[  1670.154] 	compiled for 1.18.4, module version = 1.0.0
+[  1670.154] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[  1670.156] (II) ARMSOC(0): Soft EXA mode
+[  1670.156] (II) EXA(0): Driver allocated offscreen pixmaps
+[  1670.156] (II) EXA(0): Driver registered support for the following operations:
+[  1670.156] (II)         Solid
+[  1670.156] (II)         Copy
+[  1670.156] (II)         Composite (RENDER acceleration)
+[  1670.156] (II) ARMSOC(0): Setting swap chain size: 2 
+[  1670.156] (II) ARMSOC(0): [DRI2] Setup complete
+[  1670.156] (II) ARMSOC(0): [DRI2]   DRI driver: armsoc
+[  1670.156] (==) ARMSOC(0): Backing store enabled
+[  1670.156] (==) ARMSOC(0): Silken mouse enabled
+[  1670.156] (II) ARMSOC(0): HW cursor init()
+[  1670.178] (II) ARMSOC(0): RandR 1.2 enabled, ignore the following RandR disabled message.
+[  1670.179] (==) ARMSOC(0): DPMS enabled
+[  1670.179] (--) RandR disabled
+[  1670.194] (II) SELinux: Disabled on system
+[  1670.196] (EE) AIGLX error: dlopen of /usr/lib/aarch64-linux-gnu/dri/armsoc_dri.so failed (/usr/lib/aarch64-linux-gnu/dri/armsoc_dri.so: cannot open shared object file: No such file or directory)
+[  1670.196] (EE) AIGLX: reverting to software rendering
+[  1670.274] (II) AIGLX: enabled GLX_MESA_copy_sub_buffer
+[  1670.276] (II) AIGLX: Loaded and initialized swrast
+[  1670.276] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[  1670.277] (II) ARMSOC(0): Setting screen physical size to 508 x 285
+[  1670.505] (II) config/udev: Adding input device gpio-keys (/dev/input/event0)
+[  1670.505] (**) gpio-keys: Applying InputClass "evdev keyboard catchall"
+[  1670.505] (II) LoadModule: "evdev"
+[  1670.505] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[  1670.506] (II) Module evdev: vendor="X.Org Foundation"
+[  1670.506] 	compiled for 1.18.1, module version = 2.10.1
+[  1670.506] 	Module class: X.Org XInput Driver
+[  1670.506] 	ABI class: X.Org XInput driver, version 22.1
+[  1670.506] (II) Using input driver 'evdev' for 'gpio-keys'
+[  1670.506] (**) gpio-keys: always reports core events
+[  1670.506] (**) evdev: gpio-keys: Device: "/dev/input/event0"
+[  1670.507] (--) evdev: gpio-keys: Vendor 0x1 Product 0x1
+[  1670.507] (--) evdev: gpio-keys: Found keys
+[  1670.507] (II) evdev: gpio-keys: Configuring as keyboard
+[  1670.507] (**) Option "config_info" "udev:/sys/devices/platform/gpio-keys/input/input0/event0"
+[  1670.507] (II) XINPUT: Adding extended input device "gpio-keys" (type: KEYBOARD, id 6)
+[  1670.507] (**) Option "xkb_rules" "evdev"
+[  1670.507] (**) Option "xkb_model" "pc105"
+[  1670.507] (**) Option "xkb_layout" "us"
+[  1869.812] (II) evdev: gpio-keys: Close
+[  1869.813] (II) UnloadModule: "evdev"

@@ -1,0 +1,6 @@
+auto
+/etc/ld.so.conf.d/aarch64-linux-gnu_EGL.conf
+
+/usr/lib/aarch64-linux-gnu/mesa-egl/ld.so.conf
+500
+

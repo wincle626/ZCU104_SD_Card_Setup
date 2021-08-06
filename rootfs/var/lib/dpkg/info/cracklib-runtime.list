@@ -1,0 +1,11 @@
+/etc
+/etc/cracklib
+/etc/cracklib/cracklib.conf
+/etc/logcheck
+/etc/logcheck/ignore.d.paranoid
+/etc/logcheck/ignore.d.paranoid/cracklib-runtime
+/etc/cron.daily
+/etc/cron.daily/cracklib-runtime
+/var
+/var/cache
+/var/cache/cracklib

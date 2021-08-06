@@ -1,0 +1,13 @@
+6254d2b033ff2dca4562bac4cf7bb058  usr/lib/aarch64-linux-gnu/bonobo-activation/bonobo-activation-server
+0e7d5426bcd975383bca435b296aa1a6  usr/lib/aarch64-linux-gnu/bonobo/monikers/libmoniker_std_2.so
+19b5f72b32e75218c957a1261499b23a  usr/lib/aarch64-linux-gnu/bonobo/servers/Bonobo_CosNaming_NamingContext.server
+a1241620a670285ff8f64e162f38db56  usr/lib/aarch64-linux-gnu/bonobo/servers/Bonobo_Moniker_std.server
+06e20e0d6af91baa43af07c5e93aa8a3  usr/lib/aarch64-linux-gnu/libbonobo-2.so.0.0.0
+b6fa3b647886e4d15441495b94036952  usr/lib/aarch64-linux-gnu/libbonobo-activation.so.4.0.0
+5a5372b9b5df5167252d31589589ec74  usr/lib/aarch64-linux-gnu/orbit-2.0/Bonobo_module.so
+d35430acaf5f2dc915972e117e45c34d  usr/share/doc/libbonobo2-0/AUTHORS
+933c637c189c4165a436a64f7273f69f  usr/share/doc/libbonobo2-0/NEWS.gz
+407df2e4dc4c2cf7b260e1796f98c58a  usr/share/doc/libbonobo2-0/README
+6d316eb460e3aa7aac452b3bcc37e1ec  usr/share/doc/libbonobo2-0/TODO
+49707f3b91978039a7bd7d68fd7ecb94  usr/share/doc/libbonobo2-0/changelog.Debian.gz
+34fa5e4ae4c16acc85067f6fabfbf1f5  usr/share/doc/libbonobo2-0/copyright

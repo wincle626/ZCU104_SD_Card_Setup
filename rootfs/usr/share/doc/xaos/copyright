@@ -1,0 +1,37 @@
+Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
+Maintainer: J.B. Langston
+Source: http://sourceforge.net/projects/xaos
+Name: XaoS
+
+Copyright: © 1996-2009, Jan Hubicka and the XaoS Development Team
+License: GPL-2+
+
+Files: src/filter/random.c
+Copyright: © 1983, Regents of the University of California
+License: other
+    Redistribution and use in source and binary forms are permitted
+    provided that the above copyright notice and this paragraph are
+    duplicated in all such forms and that any documentation,
+    advertising materials, and other materials related to such
+    distribution and use acknowledge that the software was developed
+    by the University of California, Berkeley.  The name of the
+    University may not be used to endorse or promote products derived
+    from this software without specific prior written permission.
+    THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+    IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+    WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+Files: debian/*
+Copyright:
+ © 1996-2008, Joey Hess <joeyh@debian.org>
+ © 2008,      Sandro Tosi <matrixhasu@gmail.com>
+ © 2010,      Ansgar Burchardt <ansgar@debian.org>
+License: GPL-2+
+
+License: GPL-2+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2, or (at your option)
+    any later version.
+    On Debian GNU/Linux systems, the complete text of the GNU General
+    Public License can be found in `/usr/share/common-licenses/GPL'

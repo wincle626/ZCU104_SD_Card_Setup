@@ -1,0 +1,4 @@
+[Test]
+Type=session
+Exec=/usr/libexec/installed-tests/glib/qdata --tap
+Output=TAP

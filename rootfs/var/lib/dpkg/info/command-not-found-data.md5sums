@@ -1,0 +1,9 @@
+3fd11677c9f240643f8501f5f8588dd9  usr/share/command-not-found/priority.txt
+773b437bd0baa49fa4b54bc38b639ced  usr/share/command-not-found/programs.d/all-main.db
+3b62798b56333e4dd968b6a7d4984808  usr/share/command-not-found/programs.d/all-multiverse.db
+452ad136130f3903ce6fc90b6c739a55  usr/share/command-not-found/programs.d/all-universe.db
+0b79874358cd30b20be217acb0ffedc0  usr/share/command-not-found/programs.d/arm64-main.db
+c2c927a7391b0657fdbc8d8142aa041d  usr/share/command-not-found/programs.d/arm64-multiverse.db
+12cbbf2d9ec6cf01e06f42f44e2fa8db  usr/share/command-not-found/programs.d/arm64-universe.db
+ec2b439754cfd1aa2a8dea18b799ab9b  usr/share/doc/command-not-found-data/changelog.gz
+d8d63b205bed90d1c4ab7bcf4ae2d447  usr/share/doc/command-not-found-data/copyright

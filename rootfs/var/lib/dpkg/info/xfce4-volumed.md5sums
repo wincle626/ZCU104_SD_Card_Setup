@@ -1,0 +1,5 @@
+cc43747b7ce9623a678e5ec29a8ffd3c  usr/bin/xfce4-volumed
+359faecf3963b4f04d2185859c73a235  usr/share/doc/xfce4-volumed/changelog.Debian.gz
+a102df0bedb12e12311f8d64e2e85f3f  usr/share/doc/xfce4-volumed/copyright
+f7b0fe77eea650dc9740f295220f5db0  usr/share/lintian/overrides/xfce4-volumed
+ea3976015fe39fe59aae63d34ea25f50  usr/share/man/man1/xfce4-volumed.1.gz

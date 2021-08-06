@@ -1,0 +1,8 @@
+# It's Go, not much we can do about this
+embedded-library usr/bin/lxc: libyaml
+hardening-no-pie usr/bin/lxc
+hardening-no-bindnow usr/bin/lxc
+
+# Not coming directly from the lxd code
+spelling-error-in-binary usr/bin/lxc eror error
+spelling-error-in-binary usr/bin/lxc ot to
