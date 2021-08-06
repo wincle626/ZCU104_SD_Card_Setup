@@ -42,4 +42,20 @@ For create petalinux project for zcu104, download the 'xilinx-zcu104-v2019.1-fin
 
 It is the same process as ZCU106 evaluation board [here](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/bootfromsdcard.md).
 
+Additionally, instead of using the root file system from Xilinx, the generic debian or ubuntu version can be found at [https://rcn-ee.com/](https://rcn-ee.com/rootfs/eewiki/minfs/). 
+
+Once the board is boot up, the network needs to be configured through netplan. The easist way is to adopt DHCP configurations. By create a '.yaml' file under '/etc/netplan' with context:
+
+```
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp3s0:
+      dhcp4: true
+```
+use 'netplay apply' to apply the configuration and use 'ip route show' to check the network setting. 
+
+More detail can be found on Ubuntu Network Configuration document [(here)](https://ubuntu.com/server/docs/network-configuration).
+
 ## V [Xilinx Reference](https://xilinx-wiki.atlassian.net/wiki/spaces/A/overview)
