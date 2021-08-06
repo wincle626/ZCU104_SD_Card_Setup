@@ -51,7 +51,7 @@ network:
   version: 2
   renderer: networkd
   ethernets:
-    enp3s0:
+    eth0:
       dhcp4: true
 ```
 use 'netplay apply' to apply the configuration and use 'ip route show' to check the network setting. 
