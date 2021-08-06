@@ -24,7 +24,13 @@
 
 ### 4. [ARM Trusted Firmware](https://github.com/Xilinx/arm-trusted-firmware.git)
 
-## IV. [Prepare boot image from source](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/imagefromsource.md)
+## IV. Prepare boot image from source
+
+Refer to similar process for [ZCU106](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/imagefromsource.md) evaluation board. The only differences are the u-boot and device tree.
+
+For ZCU104 u-boot, use 'make xilinx_zynqmp_zcu104_revA_defconfig' to initiate the u-boot configuration. 
+
+For ZCU104 device tree, either choose zcu104 board in vivado to generate the device tree or find built device tree at "linux-xlnx/arch/arm64/boot/dts/xilinx/zynqmp-zcu104-revA.dtb" or "u-boot-xlnx/arch/arm/dts/zynqmp-zcu104-revA.dtb"). 
 
 ## V. [Prepare boot image from PetaLinux](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/imagefrompetalinux.md)
 
