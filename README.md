@@ -34,7 +34,7 @@ For ZCU104 device tree, either choose zcu104 board in vivado to generate the dev
 
 ## V. Prepare boot image from PetaLinux
 
-Refer to the similar process for ZCU106 evaluation board [(hear)](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/imagefrompetalinux.md), the only difference is using the bsp for ZCU104 to create the petalinux project. 
+Refer to the similar process for ZCU106 evaluation board [(here)](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/imagefrompetalinux.md), the only difference is using the bsp for ZCU104 to create the petalinux project. 
 
 For create petalinux project for zcu104, download the 'xilinx-zcu104-v2019.1-final.bsp' from Xilinx and execute command 'petalinux-create -t project -s ${path-to-source}/xilinx-zcu104-v2019.1-final.bsp'. Note that 'path-to-source' refers to the direction where the bsp is placed. 
 
