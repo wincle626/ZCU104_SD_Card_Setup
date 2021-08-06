@@ -38,6 +38,8 @@ Refer to the similar process for ZCU106 evaluation board [(hear)](https://github
 
 For create petalinux project for zcu104, download the 'xilinx-zcu104-v2019.1-final.bsp' from Xilinx and execute command 'petalinux-create -t project -s ${path-to-source}/xilinx-zcu104-v2019.1-final.bsp'. Note that 'path-to-source' refers to the direction where the bsp is placed. 
 
-## VI. [Prepare SD card](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/bootfromsdcard.md)
+## VI. Prepare SD card
+
+It is the same process as ZCU106 evaluation board [here](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/bootfromsdcard.md).
 
 ## V [Xilinx Reference](https://xilinx-wiki.atlassian.net/wiki/spaces/A/overview)
