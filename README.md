@@ -26,7 +26,7 @@
 
 ## IV. Prepare boot image from source
 
-Refer to similar process for [ZCU106](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/imagefromsource.md) evaluation board. The only differences are the u-boot and device tree.
+Refer to similar process for ZCU106 evaluation board [(here)](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/imagefromsource.md). The only differences are the u-boot and device tree.
 
 For ZCU104 u-boot, use 'make xilinx_zynqmp_zcu104_revA_defconfig' to initiate the u-boot configuration. 
 
