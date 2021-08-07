@@ -1,7 +1,0 @@
-[Mount]
-Type=ftps
-Exec=/usr/lib/gvfs/gvfsd-ftp
-AutoMount=false
-Scheme=ftps
-DefaultPort=21
-HostnameIsInetAddress=true

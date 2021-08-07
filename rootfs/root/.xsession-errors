@@ -1,5 +1,0 @@
-Xsession: X session started for root at Thu Feb 14 18:58:18 UTC 2019
-localuser:root being added to access control list
-Openbox-Message: Unable to find a valid menu file "/var/lib/openbox/debian-menu.xml"
-Failed to launch bus: Failed to connect to session busXIO:  fatal IO error 4 (Interrupted system call) on X server ":1"
-      after 886 requests (886 known processed) with 0 events remaining.

@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=org.gnome.zeitgeist.SimpleIndexer
-Exec=/usr/lib/aarch64-linux-gnu/zeitgeist-fts

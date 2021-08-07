@@ -1,1 +1,0 @@
-setuid-binary usr/lib/*/lxc/lxc-user-nic 4755 root/root

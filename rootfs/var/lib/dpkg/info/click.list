@@ -1,8 +1,0 @@
-/etc
-/etc/click
-/etc/click/databases
-/etc/click/databases/10_core.conf
-/etc/click/databases/99_default.conf
-/etc/click/databases/20_custom.conf
-/etc/init
-/etc/init/click-system-hooks.conf

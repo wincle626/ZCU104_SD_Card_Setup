@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Indicator Printers
-Exec=/usr/lib/aarch64-linux-gnu/indicator-printers/indicator-printers-service
-OnlyShowIn=Unity;
-NoDisplay=true
-StartupNotify=false
-Terminal=false

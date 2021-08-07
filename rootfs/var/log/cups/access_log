@@ -1,6 +1,0 @@
-localhost - - [19/Jun/2019:06:25:10 +0000] "POST / HTTP/1.1" 200 349 Create-Printer-Subscriptions successful-ok
-localhost - - [19/Jun/2019:06:25:35 +0000] "POST / HTTP/1.1" 200 176 Create-Printer-Subscriptions successful-ok
-localhost - - [19/Jun/2019:06:54:03 +0000] "POST / HTTP/1.1" 200 183 Renew-Subscription successful-ok
-localhost - - [19/Jun/2019:06:59:57 +0000] "POST / HTTP/1.1" 401 123 Cancel-Subscription successful-ok
-localhost - root [19/Jun/2019:06:59:57 +0000] "POST / HTTP/1.1" 200 123 Cancel-Subscription successful-ok
-localhost - - [19/Jun/2019:06:59:57 +0000] "POST / HTTP/1.1" 200 152 Cancel-Subscription successful-ok

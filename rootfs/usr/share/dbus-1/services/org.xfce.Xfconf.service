@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=org.xfce.Xfconf
-Exec=/usr/lib/aarch64-linux-gnu/xfce4/xfconf/xfconfd

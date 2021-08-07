@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=org.gnome.panel.applet.BrightnessAppletFactory
-Exec=/usr/lib/gnome-applets/gnome-brightness-applet

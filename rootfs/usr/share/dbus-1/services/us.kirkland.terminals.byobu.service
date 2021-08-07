@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=us.kirkland.terminals.byobu
-Exec=/usr/lib/gnome-terminal/gnome-terminal-server --app-id us.kirkland.terminals.byobu

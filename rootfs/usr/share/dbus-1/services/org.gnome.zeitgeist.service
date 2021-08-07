@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=org.gnome.zeitgeist.Engine
-Exec=/bin/sh -c "/usr/lib/aarch64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon"

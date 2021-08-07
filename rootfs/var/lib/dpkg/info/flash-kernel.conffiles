@@ -1,4 +1,0 @@
-/etc/default/flash-kernel
-/etc/initramfs/post-update.d/flash-kernel
-/etc/kernel/postinst.d/zz-flash-kernel
-/etc/kernel/postrm.d/zz-flash-kernel

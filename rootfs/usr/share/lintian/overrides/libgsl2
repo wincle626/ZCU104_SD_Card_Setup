@@ -1,5 +1,0 @@
-libgsl2: non-dev-pkg-with-shlib-symlink usr/lib/*/libgslcblas.so.0.0.0 usr/lib/*/libgslcblas.so
-libgsl2: non-dev-pkg-with-shlib-symlink usr/lib/*/libgsl.so.0.10.0 usr/lib/*/libgsl.so
-libgsl2: package-name-doesnt-match-sonames libgslcblas0 libgsl0
-libgsl2: package-name-doesnt-match-sonames libgsl0 libgslcblas0
-libgsl2: package-name-doesnt-match-sonames libgsl19 libgslcblas0

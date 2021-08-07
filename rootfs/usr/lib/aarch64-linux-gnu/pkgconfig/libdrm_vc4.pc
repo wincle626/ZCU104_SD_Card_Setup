@@ -1,9 +1,0 @@
-prefix=/usr
-exec_prefix=${prefix}
-libdir=${prefix}/lib/aarch64-linux-gnu
-includedir=${prefix}/include
-
-Name: libdrm_vc4
-Description: Userspace interface to vc4 kernel DRM services
-Version: 2.4.91
-Requires.private: libdrm

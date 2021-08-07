@@ -1,171 +1,0 @@
-Log started: 2019-06-11  06:54:42
-(Reading database ... dpkg: warning: files list file for package 'cloud-guest-utils' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-server-common' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-filters' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-browsed' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-common' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cloud-initramfs-copymods' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-ppdc' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cloud-initramfs-dyn-netconf' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-core-drivers' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-filters-core-drivers' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-client' missing; assuming package has no files currently installed
-(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 81413 files and directories currently installed.)
-Preparing to unpack .../libelf1_0.165-3ubuntu1.2_arm64.deb ...
-Unpacking libelf1:arm64 (0.165-3ubuntu1.2) over (0.165-3ubuntu1.1) ...
-Processing triggers for libc-bin (2.23-0ubuntu11) ...
-Setting up libelf1:arm64 (0.165-3ubuntu1.2) ...
-Processing triggers for libc-bin (2.23-0ubuntu11) ...
-Log ended: 2019-06-11  06:56:18
-
-Log started: 2019-06-11  06:56:20
-(Reading database ... dpkg: warning: files list file for package 'cloud-guest-utils' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-server-common' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-filters' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-browsed' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-common' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cloud-initramfs-copymods' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-ppdc' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cloud-initramfs-dyn-netconf' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-core-drivers' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-filters-core-drivers' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-client' missing; assuming package has no files currently installed
-(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 81413 files and directories currently installed.)
-Preparing to unpack .../libglib2.0-data_2.48.2-0ubuntu4.2_all.deb ...
-Unpacking libglib2.0-data (2.48.2-0ubuntu4.2) over (2.48.2-0ubuntu4.1) ...
-Setting up libglib2.0-data (2.48.2-0ubuntu4.2) ...
-Log ended: 2019-06-11  06:56:47
-
-Log started: 2019-06-11  06:57:11
-(Reading database ... dpkg: warning: files list file for package 'cloud-guest-utils' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-server-common' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-filters' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-browsed' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-common' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cloud-initramfs-copymods' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-ppdc' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cloud-initramfs-dyn-netconf' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-core-drivers' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-filters-core-drivers' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-client' missing; assuming package has no files currently installed
-(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 81413 files and directories currently installed.)
-Preparing to unpack .../libsndfile1_1.0.25-10ubuntu0.16.04.2_arm64.deb ...
-Unpacking libsndfile1:arm64 (1.0.25-10ubuntu0.16.04.2) over (1.0.25-10ubuntu0.16.04.1) ...
-Processing triggers for libc-bin (2.23-0ubuntu11) ...
-Setting up libsndfile1:arm64 (1.0.25-10ubuntu0.16.04.2) ...
-Processing triggers for libc-bin (2.23-0ubuntu11) ...
-Log ended: 2019-06-11  06:58:07
-
-Log started: 2019-06-11  06:58:09
-(Reading database ... dpkg: warning: files list file for package 'cloud-guest-utils' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-server-common' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-filters' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-browsed' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-common' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cloud-initramfs-copymods' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-ppdc' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cloud-initramfs-dyn-netconf' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-core-drivers' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-filters-core-drivers' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-client' missing; assuming package has no files currently installed
-(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 81413 files and directories currently installed.)
-Preparing to unpack .../libglib2.0-bin_2.48.2-0ubuntu4.2_arm64.deb ...
-Unpacking libglib2.0-bin (2.48.2-0ubuntu4.2) over (2.48.2-0ubuntu4.1) ...
-Preparing to unpack .../libglib2.0-0_2.48.2-0ubuntu4.2_arm64.deb ...
-Unpacking libglib2.0-0:arm64 (2.48.2-0ubuntu4.2) over (2.48.2-0ubuntu4.1) ...
-Processing triggers for man-db (2.7.5-1) ...
-Processing triggers for libc-bin (2.23-0ubuntu11) ...
-Setting up libglib2.0-0:arm64 (2.48.2-0ubuntu4.2) ...
-Setting up libglib2.0-bin (2.48.2-0ubuntu4.2) ...
-Processing triggers for libc-bin (2.23-0ubuntu11) ...
-Log ended: 2019-06-11  07:00:03
-
-Log started: 2019-06-19  06:30:36
-(Reading database ... dpkg: warning: files list file for package 'cloud-guest-utils' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-server-common' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-filters' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-browsed' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-common' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cloud-initramfs-copymods' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-ppdc' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cloud-initramfs-dyn-netconf' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-core-drivers' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-filters-core-drivers' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-client' missing; assuming package has no files currently installed
-(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 81413 files and directories currently installed.)
-Preparing to unpack .../sudo_1.8.16-0ubuntu1.7_arm64.deb ...
-Unpacking sudo (1.8.16-0ubuntu1.7) over (1.8.16-0ubuntu1.6) ...
-Processing triggers for man-db (2.7.5-1) ...
-Setting up sudo (1.8.16-0ubuntu1.7) ...
-Log ended: 2019-06-19  06:31:18
-
-Log started: 2019-06-19  06:31:21
-(Reading database ... dpkg: warning: files list file for package 'cloud-guest-utils' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-server-common' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-filters' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-browsed' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-common' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cloud-initramfs-copymods' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-ppdc' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cloud-initramfs-dyn-netconf' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-core-drivers' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-filters-core-drivers' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-client' missing; assuming package has no files currently installed
-(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 81413 files and directories currently installed.)
-Preparing to unpack .../dbus-x11_1.10.6-1ubuntu3.4_arm64.deb ...
-Unpacking dbus-x11 (1.10.6-1ubuntu3.4) over (1.10.6-1ubuntu3.3) ...
-Preparing to unpack .../dbus_1.10.6-1ubuntu3.4_arm64.deb ...
-Unpacking dbus (1.10.6-1ubuntu3.4) over (1.10.6-1ubuntu3.3) ...
-Preparing to unpack .../libdbus-1-3_1.10.6-1ubuntu3.4_arm64.deb ...
-Unpacking libdbus-1-3:arm64 (1.10.6-1ubuntu3.4) over (1.10.6-1ubuntu3.3) ...
-Processing triggers for man-db (2.7.5-1) ...
-Processing triggers for ureadahead (0.100.0-19.1) ...
-Processing triggers for systemd (229-4ubuntu21.21) ...
-Processing triggers for libc-bin (2.23-0ubuntu11) ...
-Setting up libdbus-1-3:arm64 (1.10.6-1ubuntu3.4) ...
-Setting up dbus (1.10.6-1ubuntu3.4) ...
-A reboot is required to replace the running dbus-daemon.
-Please reboot the system when convenient.
-Setting up dbus-x11 (1.10.6-1ubuntu3.4) ...
-Processing triggers for libc-bin (2.23-0ubuntu11) ...
-Log ended: 2019-06-19  06:33:49
-
-Log started: 2019-06-19  06:33:51
-(Reading database ... dpkg: warning: files list file for package 'cloud-guest-utils' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-server-common' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-filters' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-browsed' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-common' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cloud-initramfs-copymods' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-ppdc' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cloud-initramfs-dyn-netconf' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-core-drivers' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-filters-core-drivers' missing; assuming package has no files currently installed
-dpkg: warning: files list file for package 'cups-client' missing; assuming package has no files currently installed
-(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 81413 files and directories currently installed.)
-Preparing to unpack .../vim_2%3a7.4.1689-3ubuntu1.3_arm64.deb ...
-Unpacking vim (2:7.4.1689-3ubuntu1.3) over (2:7.4.1689-3ubuntu1.2) ...
-Preparing to unpack .../vim-tiny_2%3a7.4.1689-3ubuntu1.3_arm64.deb ...
-Unpacking vim-tiny (2:7.4.1689-3ubuntu1.3) over (2:7.4.1689-3ubuntu1.2) ...
-Preparing to unpack .../vim-runtime_2%3a7.4.1689-3ubuntu1.3_all.deb ...
-Unpacking vim-runtime (2:7.4.1689-3ubuntu1.3) over (2:7.4.1689-3ubuntu1.2) ...
-Preparing to unpack .../vim-common_2%3a7.4.1689-3ubuntu1.3_arm64.deb ...
-Unpacking vim-common (2:7.4.1689-3ubuntu1.3) over (2:7.4.1689-3ubuntu1.2) ...
-Processing triggers for man-db (2.7.5-1) ...
-Processing triggers for gnome-menus (3.13.3-6ubuntu3.1) ...
-Processing triggers for desktop-file-utils (0.22-1ubuntu5.2) ...
-Processing triggers for mime-support (3.59ubuntu1) ...
-Processing triggers for hicolor-icon-theme (0.15-0ubuntu1.1) ...
-Setting up vim-common (2:7.4.1689-3ubuntu1.3) ...
-Setting up vim-runtime (2:7.4.1689-3ubuntu1.3) ...
-Setting up vim (2:7.4.1689-3ubuntu1.3) ...
-Setting up vim-tiny (2:7.4.1689-3ubuntu1.3) ...
-Log ended: 2019-06-19  06:37:41
-

@@ -1,4 +1,0 @@
-ERROR: apport (pid 14335) Wed Jun 19 07:00:03 2019: called for pid 4259, signal 6, core limit 0, dump mode 1
-ERROR: apport (pid 14335) Wed Jun 19 07:00:03 2019: executable: /usr/lib/xorg/Xorg (command line "/usr/lib/xorg/Xorg -depth 24")
-ERROR: apport (pid 14335) Wed Jun 19 07:00:03 2019: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
-ERROR: apport (pid 14335) Wed Jun 19 07:00:03 2019: apport: report /var/crash/_usr_lib_xorg_Xorg.0.crash already exists and unseen, doing nothing to avoid disk usage DoS

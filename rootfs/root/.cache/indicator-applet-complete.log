@@ -1,9 +1,0 @@
-DEBUG: Indicator-Applet-Complete - Icons directory: /usr/share/libindicator/icons/
-DEBUG: Indicator-Applet-Complete - Looking at Module: libapplication.so
-DEBUG: Indicator-Applet-Complete - Loading Module: libapplication.so
-DEBUG: Indicator-Applet-Complete - Looking at Module: libprintersmenu.so
-DEBUG: Indicator-Applet-Complete - Loading Module: libprintersmenu.so
-DEBUG: Indicator-Applet-Complete - loading indicator: com.canonical.indicator.keyboard
-DEBUG: Indicator-Applet-Complete - loading indicator: com.canonical.indicator.sound
-DEBUG: Indicator-Applet-Complete - loading indicator: com.canonical.indicator.messages
-DEBUG: Indicator-Applet-Complete - loading indicator: com.canonical.indicator.session

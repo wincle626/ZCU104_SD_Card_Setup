@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=org.gnome.panel.applet.SearchBarFactory
-Exec=/usr/lib/gnome-applets/tracker-search-bar

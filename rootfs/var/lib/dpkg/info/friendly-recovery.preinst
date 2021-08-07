@@ -1,9 +1,0 @@
-#!/bin/sh
-set -e
-
-# it is now a static service
-systemctl disable friendly-recovery.service || :
-
-
-
-exit 0

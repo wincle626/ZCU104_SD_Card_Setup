@@ -1,3 +1,0 @@
-# Well-known bad link rel copyright
-# format is tag ~~ regexp
-license-problem-cc-by-nc-sa ~~ ^https?://creativecommons.org/licenses/by-nc-sa/

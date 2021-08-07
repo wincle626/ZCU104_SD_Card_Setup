@@ -1,4 +1,0 @@
-[RemoteVolumeMonitor]
-Name=GProxyVolumeMonitorGoa
-DBusName=org.gtk.vfs.GoaVolumeMonitor
-IsNative=false

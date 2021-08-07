@@ -1,4 +1,0 @@
-Because Debian distributes the Jargon file and rfc indexes in separate
-packages, we don't install them from this package.  Also, we don't
-directly install /usr/dict/words, though we provide web2 as an
-alternative for that.
