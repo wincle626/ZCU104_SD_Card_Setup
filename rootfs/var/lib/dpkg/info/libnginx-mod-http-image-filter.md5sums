@@ -1,0 +1,4 @@
+ae2b4912deae993ec73e70f5f7640fce  usr/lib/nginx/modules/ngx_http_image_filter_module.so
+de03e75d2eeee08ecc4a2f5fc19cd6c1  usr/share/doc/libnginx-mod-http-image-filter/changelog.Debian.gz
+82be5e3a3d77892aafcdfee137c4499d  usr/share/doc/libnginx-mod-http-image-filter/copyright
+9649144952b972d34256dab9dfdc017f  usr/share/nginx/modules-available/mod-http-image-filter.conf

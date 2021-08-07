@@ -1,0 +1,85 @@
+#
+# Bash completion script for tio.
+#
+
+_tio()
+{
+    local cur prev opts base
+    COMPREPLY=()
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    prev="${COMP_WORDS[COMP_CWORD-1]}"
+
+    #  The options we'll complete.
+    opts="-b --baudrate \
+          -d --databits \
+          -f --flow \
+          -s --stopbits \
+          -p --parity \
+          -o --output-delay \
+          -n --no-autoconnect \
+          -l --log \
+          -m --map \
+          -v --version \
+          -h --help"
+
+    #  Complete the arguments to the options.
+    case "${prev}" in
+        -b | --baudrate)
+            local baudrates=" 0 50 75 110 134 150 200 300 600 1200 1800 2400 4800 9600 19200 38400 57600 115200 230400 460800 500000 576000 921600 1000000 1152000 1500000 2000000 2500000 3000000 3500000 4000000"
+            COMPREPLY=( $(compgen -W "$baudrates" -- ${cur}) )
+            return 0
+            ;;
+        -d | --databits)
+            COMPREPLY=( $(compgen -W "5 6 7 8" -- ${cur}) )
+            return 0
+            ;;
+        -h | --local-echo)
+            COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
+            return 0
+            ;;
+        -f | --flow)
+            COMPREPLY=( $(compgen -W "hard soft none" -- ${cur}) )
+            return 0
+            ;;
+        -s | --stopbits)
+            COMPREPLY=( $(compgen -W "1 2" -- ${cur}) )
+            return 0
+            ;;
+        -p | --parity)
+            COMPREPLY=( $(compgen -W "even odd none" -- ${cur}) )
+            return 0
+            ;;
+        -o | --output-delay)
+            COMPREPLY=( $(compgen -W "0 1 10 100" -- ${cur}) )
+            return 0
+            ;;
+        -n | --no-autoconnect)
+            COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
+            return 0
+            ;;
+        -l | --log)
+            COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
+            return 0
+            ;;
+        -m | --map)
+            COMPREPLY=( $(compgen -W "ICRNL IGNCR INLCR INLCRNL OCRNL ODELBS ONLCRNL" -- ${cur}) )
+            return 0
+            ;;
+        -v | --version)
+            COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
+            return 0
+            ;;
+        -h | --help)
+            COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
+            return 0
+            ;;
+        *)
+        ;;
+    esac
+
+   COMPREPLY=($(compgen -W "${opts}" -- ${cur}))
+   return 0
+}
+
+# Bind completion to tio command
+complete -o default -F _tio tio

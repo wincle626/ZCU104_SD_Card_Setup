@@ -1,0 +1,60 @@
+#!/bin/sh
+# postrm script for #PACKAGE#
+#
+# see: dh_installdeb(1)
+
+set -e
+
+
+# only remove state dir if purge
+# only remove the link if it points to /run/connman/resolv.conf
+case "$1" in
+    purge)
+        [ -d /var/lib/connman ] && rm -rf /var/lib/connman
+        if [ "$(readlink /etc/resolv.conf | grep connman)" ]; then
+            rm -f /etc/resolv.conf
+        fi
+    ;;
+
+    remove)
+        if [ "$(readlink /etc/resolv.conf | grep connman)" ]; then
+            rm -f /etc/resolv.conf
+        fi
+    ;;
+
+    upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+    ;;
+
+    *)
+        echo "postrm called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+# Automatically added by dh_installinit/12ubuntu1
+if [ "$1" = "purge" ] ; then
+	update-rc.d connman remove >/dev/null
+fi
+# End automatically added section
+# Automatically added by dh_installsystemd/12ubuntu1
+if [ -d /run/systemd/system ]; then
+	systemctl --system daemon-reload >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installsystemd/12ubuntu1
+if [ "$1" = "remove" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper mask 'connman-wait-online.service' 'connman.service' >/dev/null || true
+	fi
+fi
+
+if [ "$1" = "purge" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper purge 'connman-wait-online.service' 'connman.service' >/dev/null || true
+		deb-systemd-helper unmask 'connman-wait-online.service' 'connman.service' >/dev/null || true
+	fi
+fi
+# End automatically added section
+
+
+exit 0

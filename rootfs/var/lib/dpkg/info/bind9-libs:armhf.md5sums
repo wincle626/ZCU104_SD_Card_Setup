@@ -1,0 +1,11 @@
+9076e712df353811b28f705cc0616abf  usr/lib/arm-linux-gnueabihf/libbind9.so.1600.0.1
+99fa4e1fb75747903e33355644864e5a  usr/lib/arm-linux-gnueabihf/libdns.so.1601.0.0
+57bc802e481f6aa4336fedd5861c55c2  usr/lib/arm-linux-gnueabihf/libirs.so.1600.0.1
+d26d19505e1726fd4d04155a7e5f26b6  usr/lib/arm-linux-gnueabihf/libisc.so.1601.0.0
+0fad97da83245d93f69d39348560e3fe  usr/lib/arm-linux-gnueabihf/libisccc.so.1600.0.1
+8961c7db46b0ea15ce7fd52b176795a8  usr/lib/arm-linux-gnueabihf/libisccfg.so.1600.0.1
+45a912ed6dcec480daff29054e85961a  usr/lib/arm-linux-gnueabihf/libns.so.1601.0.0
+5b8a052466120c2b00dbff7e974b5ae2  usr/share/doc/bind9-libs/NEWS.Debian.gz
+014ee02129d05d30146b76614516ff4c  usr/share/doc/bind9-libs/changelog.Debian.gz
+25a18460eca883cc0e1c1da04fe2be9d  usr/share/doc/bind9-libs/copyright
+5a8db1f2385c80b7537a5614f81d6e26  usr/share/lintian/overrides/bind9-libs

@@ -1,0 +1,90 @@
+#!/bin/sh
+
+set -e
+
+
+remove_apt_auth(){
+    # config file created at runtime, needs explicit handling on purge
+    rm -f /etc/apt/auth.conf.d/90ubuntu-advantage
+}
+
+remove_cache_dir(){
+    rm -rf /var/lib/ubuntu-advantage
+}
+
+remove_logs(){
+    rm -f /var/log/ubuntu-advantage.log*
+}
+
+remove_gpg_files(){
+    rm -f /etc/apt/trusted.gpg.d/ubuntu-advantage-esm-infra-trusty.gpg
+    rm -f /etc/apt/trusted.gpg.d/ubuntu-advantage-esm-apps.gpg
+    rm -f /etc/apt/trusted.gpg.d/ubuntu-advantage-fips.gpg
+}
+
+case "$1" in
+    purge)
+        remove_apt_auth
+        remove_cache_dir
+        remove_logs
+        remove_gpg_files
+        ;;
+esac
+
+# Automatically added by dh_installdeb/12.10ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/init/ua-auto-attach.conf 20.2~ ubuntu-advantage-tools -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb/12.10ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/cron.daily/ubuntu-advantage-tools 19.1~ ubuntu-advantage-tools -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb/12.10ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/update-motd.d/80-livepatch 19.1~ ubuntu-advantage-tools -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb/12.10ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/update-motd.d/80-esm 19.1~ ubuntu-advantage-tools -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb/12.10ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/update-motd.d/99-esm 19.1~ ubuntu-advantage-tools -- "$@"
+# End automatically added section
+# Automatically added by dh_systemd_start/12.10ubuntu1
+if [ -d /run/systemd/system ]; then
+	systemctl --system daemon-reload >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_systemd_enable/12.10ubuntu1
+if [ "$1" = "remove" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper mask 'ua-messaging.timer' >/dev/null || true
+	fi
+fi
+
+if [ "$1" = "purge" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper purge 'ua-messaging.timer' >/dev/null || true
+		deb-systemd-helper unmask 'ua-messaging.timer' >/dev/null || true
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_systemd_enable/12.10ubuntu1
+if [ "$1" = "remove" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper mask 'ua-reboot-cmds.service' >/dev/null || true
+	fi
+fi
+
+if [ "$1" = "purge" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper purge 'ua-reboot-cmds.service' >/dev/null || true
+		deb-systemd-helper unmask 'ua-reboot-cmds.service' >/dev/null || true
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_installdebconf/12.10ubuntu1
+if [ "$1" = purge ] && [ -e /usr/share/debconf/confmodule ]; then
+	. /usr/share/debconf/confmodule
+	db_purge
+fi
+# End automatically added section
+
+
+exit 0

@@ -1,0 +1,53 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: rcn-ee.net
+Label: rcn-ee.net
+Codename: focal
+Date: Thu, 05 Aug 2021 22:08:22 UTC
+Architectures: armhf
+Components: main
+Description: Apt repository for debian.beagleboard.org
+MD5Sum:
+ 30ff621cef92659e0c5abc4a67efe6c8 4359205 main/binary-armhf/Packages
+ 38bfba3a04742f5c9faa0816bafffd81 739902 main/binary-armhf/Packages.gz
+ 22758e0c447bbda1bc08a99f744b0a44 116 main/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-armhf/Packages.gz
+ e1b49fed556ea2b4061dcc022e97d251 20886 main/source/Sources
+ 393020324f61873ae0bea07b503092b7 5335 main/source/Sources.gz
+ 8f16d5bad22629edf2333a1c58a4158c 117 main/source/Release
+SHA1:
+ cd188187a7f0e1bdbc1c5f881fd897f0c1891fb2 4359205 main/binary-armhf/Packages
+ 2e1c14f6b810d8251cd0b42984d812cc385b216c 739902 main/binary-armhf/Packages.gz
+ 94bc92e1b2c2acbff5a8b331ebf790e33614fb8a 116 main/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-armhf/Packages.gz
+ 68666ef533d22c47b78606b14f874df0a7d7e7df 20886 main/source/Sources
+ fe3eecc19df38f0b033e1df36b83447e69781474 5335 main/source/Sources.gz
+ 181ee3a81092146db9259cd51fa2b0c918433670 117 main/source/Release
+SHA256:
+ 059c20de7cbb555e3242f8c8a3cf551cba0b5d6ef6c3d50cfdcffcda867ecc78 4359205 main/binary-armhf/Packages
+ 80c74698dbf91808a383b8bffa9a4a0057913ca1ecfc73230256d0a42bc85045 739902 main/binary-armhf/Packages.gz
+ 85b856062ab45a03eb5649bfa346b0fc7a96a31dbb42bbfdd306880bd99ca874 116 main/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-armhf/Packages.gz
+ c5de3d61dc0a9e4bc688cafa14ea160fc69c865891bf1067aaff23bea522af04 20886 main/source/Sources
+ 939132d2233d0aef8f8bc033d03540bd7d10960c20be86c70aa83ef28ebeb897 5335 main/source/Sources.gz
+ ad3abccfcf2d3aaeacecff833f58f136b168d2aedd8430f7a373a1dca1263d0a 117 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEpyqwuQuGhckXd6N30oTmCKTEZAIFAmEMYVYACgkQ0oTmCKTE
+ZAIbjhAAtDQ5PhLI35Pfhgv7Ja7i5gkcUsnyarTYJPxmDcEjuH6fnIwgRcZMPW22
+X+6x14SbB+mJkfoEW5f6PTmhLQU6IuNqzgFehZWWtzHxPfdV/mJDecuSBgcKz+ei
+7Qlq0m/JaEDdCPyWMAPEeppq/9nveyQrQlattc0adtkIUojIGBHo8M8FAwxRkSol
+xKOYFuTSylXAe+aTgdqf/qRkFcXoCxw7YPR7vpq9s3lfi7qUI8hW7I5b/2yI2yIz
+pqWnZwfhsl0P6V1GAR5bXx4A5vPFx4Ai1sez1K5Xy3DB5xC1LeCa9PHd6yANSkYy
+Hu8JRMLJJVG5sD0DeW27X5xPxyic1cfkB/FyZv5m6f0c3+u4cvBFgV72n6mF03UC
+/cJgO38yYGyQcv0z2D1rAf0VlI3kEzAI8uFIYFbKGNlfNB3q/mYF3UW2McyZDTbR
+PAZSyOOmnLUncvbIAKSX+J7L5dYz6hTf/XQEEeJaiacxtcakQu95jzvHV4Xf8+T7
+moVCWHNttM50aOcVUlnbFZ2U4zz0tcigbz/IHGb8KqChYc20Y889AwoN1ncvjsft
+guJ/5hN8sRD+9FIimIBRokOrE1YE9oXbkFHqIfizZA1YXs7/yiImF7uij6UDF4el
+uBcc1GrYIBgYbpOTtujAlJTtREV5PNJAV9KKeg1I2RIDXgee780=
+=N7uu
+-----END PGP SIGNATURE-----

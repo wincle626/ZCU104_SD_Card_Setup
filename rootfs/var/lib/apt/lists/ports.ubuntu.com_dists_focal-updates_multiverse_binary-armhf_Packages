@@ -1,0 +1,734 @@
+Package: broadcom-sta-common
+Architecture: all
+Version: 6.30.223.271-12ubuntu0.1
+Priority: optional
+Section: multiverse/admin
+Source: broadcom-sta
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Eduard Bloch <blade@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 32
+Recommends: broadcom-sta-source, module-assistant
+Filename: pool/multiverse/b/broadcom-sta/broadcom-sta-common_6.30.223.271-12ubuntu0.1_all.deb
+Size: 9024
+MD5sum: b3df521f309ccd2f946cda683284e3a3
+SHA1: 0541220d29534e957bc424109303c2aeb3408f95
+SHA256: 7fbd3a2f35fc2cefc29ea5a0444991478e66e4fe998892f65a4ed54e73df2ce2
+SHA512: 92cb4cf80fda509b8feb7163c38cf25075f8422ff084b688275de6cc457b2b166b8322759d8585e6bf3daa9d8bd2e34db661acd0b26ec82d64b7ad4afaff7b92
+Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
+Description: Common files for the Broadcom STA Wireless driver
+Description-md5: a6bd57d95d48308610bc995bd8922939
+
+Package: broadcom-sta-dkms
+Architecture: all
+Version: 6.30.223.271-12ubuntu0.1
+Priority: optional
+Section: multiverse/admin
+Source: broadcom-sta
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Eduard Bloch <blade@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 14141
+Provides: broadcom-sta-modules
+Depends: dkms (>= 2.1.0.0)
+Recommends: wireless-tools
+Conflicts: broadcom-sta-modules
+Filename: pool/multiverse/b/broadcom-sta/broadcom-sta-dkms_6.30.223.271-12ubuntu0.1_all.deb
+Size: 2202920
+MD5sum: 1b3127e514a8fbef7f45c0cfd81ff957
+SHA1: cfbc2873cb25501bd6273092a27d8d9c4c910631
+SHA256: d0e777693d87f4a6754c31fda596a34d1f78c4a1fdb36c3590f610e70fac0105
+SHA512: bfa5f70bbdef60f44c775d36dac23a8872700a7de16160dc47b0db6f8fc25654e306345a80204f81538da41213ab8f00498bf3dc35ef8b5ee2022facd8d9c45e
+Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
+Description: dkms source for the Broadcom STA Wireless driver
+Description-md5: 4c9c20d84937e0293fe598f44d785bce
+
+Package: broadcom-sta-source
+Architecture: all
+Version: 6.30.223.271-12ubuntu0.1
+Priority: optional
+Section: multiverse/admin
+Source: broadcom-sta
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Eduard Bloch <blade@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2189
+Depends: debhelper (>= 8), make, xz-utils
+Recommends: module-assistant
+Filename: pool/multiverse/b/broadcom-sta/broadcom-sta-source_6.30.223.271-12ubuntu0.1_all.deb
+Size: 2221400
+MD5sum: 30029430f0a3afaa5cdaecba98d612b9
+SHA1: e83145f160819983363acdfbc74def27584c7b00
+SHA256: 2d8a846bf023a268bddc4d2cd5692858f1c430f2155d0d79704db01e72198a6d
+SHA512: 6f00d53584a2f774b511ab6cffccc0dd95e9696c2f889d078a794056d2b93ecf13a79a96367627e4dddfb0a03d4961e54f48cf4a3fb50fb11619be598210cecb
+Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
+Description: Source for the Broadcom STA Wireless driver
+Description-md5: 5bb170970da4a03f1c53b6f0202148ef
+
+Package: conserver-client
+Architecture: armhf
+Version: 8.2.4-2ubuntu0.20.04.1
+Priority: optional
+Section: multiverse/comm
+Source: conserver
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Conserver Maintainers <conserver@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 112
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.28), libssl1.1 (>= 1.1.0)
+Filename: pool/multiverse/c/conserver/conserver-client_8.2.4-2ubuntu0.20.04.1_armhf.deb
+Size: 50676
+MD5sum: 3914a815101348421a486bcf42f0d074
+SHA1: ed98ec8fd1f5b06b9b6a605c666bfb9c1f044a0f
+SHA256: b0645618d77898cec3ec503b89b8194b665147efbf780c1ef38b1a4b44ae1653
+SHA512: e05d14a5e9678de83fdb9aecd5f208646e37c7dc1dbbb38d3aee6283fe8f20eddeaca9061edded258dbacbaab593da7798e55937feaa478b476f5cc90776833b
+Homepage: http://www.conserver.com/
+Description: connect to a console server
+Description-md5: b9cc2e709d8b33dfd2ec4626d89d6cb5
+
+Package: conserver-server
+Architecture: armhf
+Version: 8.2.4-2ubuntu0.20.04.1
+Priority: optional
+Section: multiverse/comm
+Source: conserver
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Conserver Maintainers <conserver@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 340
+Depends: adduser, lsb-base (>= 3.0-6), debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.28), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libssl1.1 (>= 1.1.0), libwrap0 (>= 7.6-4~)
+Filename: pool/multiverse/c/conserver/conserver-server_8.2.4-2ubuntu0.20.04.1_armhf.deb
+Size: 144968
+MD5sum: ebf9c73e44b1088654727524c2f522ae
+SHA1: bfb22ff71de0d43097759181d325aefc2e27e7a1
+SHA256: 54c00e5db8aa50c5875bfd017973113b835eee9b8bbed01ca01ae80a4db09e37
+SHA512: af7d2e5b7bce3c345706f7e43186303ef89909597bb571662e7dd196dc7562eb30986a7baf13bfefca6803276a1154bd1b133e4c126ffe8dc9096cd42a346f2f
+Homepage: http://www.conserver.com/
+Description: connect multiple user to a serial console with logging
+Description-md5: e3162cc0887da73106fabc4b43ea815f
+
+Package: libcuda1-331
+Architecture: armhf
+Version: 340.108-0ubuntu5.20.04.2
+Priority: optional
+Section: multiverse/misc
+Source: nvidia-graphics-drivers-340
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 21
+Depends: libcuda1-340
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340/libcuda1-331_340.108-0ubuntu5.20.04.2_armhf.deb
+Size: 4900
+MD5sum: f0c73d1ac1fdb49dd2b77bbaa575c3dc
+SHA1: d9ced29e59af4e92a26a5d5de4ca294fa512b2b5
+SHA256: c9c4906db6912b3004e552656b44067574f606792af587f6bce710ea3df78509
+SHA512: eac6e7f0ffd55a7eb9ca137ff5f2a39d5f9f357760447b7881c25710aeed41d48a64cbafa3655924ee754c19c93f0d94b67887ecee686e77e1f4af64797477ee
+Description: Transitional package for libcuda1-340
+Description-md5: a10363c018e08f69fb7494b3d411a6f6
+
+Package: libcuda1-331-updates
+Architecture: armhf
+Version: 340.108-0ubuntu5.20.04.2
+Priority: optional
+Section: multiverse/misc
+Source: nvidia-graphics-drivers-340
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 21
+Depends: libcuda1-340
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340/libcuda1-331-updates_340.108-0ubuntu5.20.04.2_armhf.deb
+Size: 4916
+MD5sum: a26856a20d390b519c0ef3b68a3ddfce
+SHA1: 3ccf61388a1584ac02ee49c4e5989612844e1410
+SHA256: 5a37a242686768f93745f2035c57493e4967cfabc0a0ad27086ebcd056c3bae4
+SHA512: ea5a2f73daae4806e93f083ee11f6dde8e7c21fa1d7f3d0334a89b37d7a86efb959ed9ba548098a7b804dba31ae8b6075a24f6f4b682f28d4b04c9d5e1be372c
+Description: Transitional package for libcuda1-340
+Description-md5: a10363c018e08f69fb7494b3d411a6f6
+
+Package: libcuda1-340-updates
+Architecture: armhf
+Version: 340.108-0ubuntu5.20.04.2
+Priority: optional
+Section: multiverse/misc
+Source: nvidia-graphics-drivers-340
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 21
+Depends: libcuda1-340
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340/libcuda1-340-updates_340.108-0ubuntu5.20.04.2_armhf.deb
+Size: 4912
+MD5sum: 68f15895c77ea3414309f0cfceeaa0f7
+SHA1: f9aa3fcf002d1286c32c888c5cf0f970936ad57e
+SHA256: 86dd95dd1d2d04acee7e8a4644d948648dadde20873a6f8de58a6a7c2aa7fa3f
+SHA512: cdc335c065309694a9361aee4d45e7a356c43b1d4351a9f21a446ec96e7ccef8251fbf73d83a4b9f99f0a828b8d30680b3a8984bdb5a097839f65483450447ba
+Description: Transitional package for libcuda1-340
+Description-md5: a10363c018e08f69fb7494b3d411a6f6
+
+Package: libnvidia-common-418-server
+Architecture: all
+Version: 418.211.00-0ubuntu0.20.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-418-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 34
+Provides: libnvidia-common
+Conflicts: libnvidia-common
+Breaks: libnvidia-gl-418-server (<< 390.25-0ubuntu2~)
+Replaces: libnvidia-common, libnvidia-gl-418-server (<< 390.25-0ubuntu2~)
+Filename: pool/multiverse/n/nvidia-graphics-drivers-418-server/libnvidia-common-418-server_418.211.00-0ubuntu0.20.04.1_all.deb
+Size: 8956
+MD5sum: 624bf2b09de2137d2281b2a92048401e
+SHA1: 72465b14ccb5d1ef41528bcfddc89454642bd4e5
+SHA256: 3d2b6bf25593dff4f0eaef57959f8d0b1ef9cac37c9a782cac02e0fb6d809b67
+SHA512: ee2cafc565e74567bb2a5130e3dfcf8701b51e35143ec8f133f0e2a0265e4a91a16d4db35108f8e0a91f504c74c87072fd1301ccc085fc00afa7ac14ec75919d
+Homepage: http://www.nvidia.com
+Description: Shared files used by the NVIDIA libraries
+Description-md5: 259c61ba4e777f5a2f1e7ee2fd1957bc
+
+Package: libnvidia-common-440-server
+Architecture: all
+Version: 450.142.00-0ubuntu0.20.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-450-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 19
+Depends: libnvidia-common-450-server
+Filename: pool/multiverse/n/nvidia-graphics-drivers-450-server/libnvidia-common-440-server_450.142.00-0ubuntu0.20.04.1_all.deb
+Size: 7276
+MD5sum: 499990839df33f02f3ecfa385a1e37b8
+SHA1: 565991b34f0c5605189c05f7935099b269149041
+SHA256: 4533340767fc9d03774ed029e9140f6ba250df232a1a3084bd8ab2764ac97423
+SHA512: 38108aa3379a59f62da67b874771149adc9169f6b72f374f7f1fd2e5deaa27f76c362ac8b6febff2a4a29d999ed98b4fa6f0439880ac01ece2e77528d8a99825
+Homepage: http://www.nvidia.com
+Description: Transitional package for libnvidia-common-450-server
+Description-md5: 9fa4d974119d7ecb5a92d0caa476d4ac
+
+Package: libnvidia-common-455
+Architecture: all
+Version: 455.45.01-0ubuntu0.20.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-455
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 35
+Provides: libnvidia-common
+Breaks: libnvidia-gl-455 (<< 390.25-0ubuntu2~)
+Replaces: libnvidia-common, libnvidia-gl-455 (<< 390.25-0ubuntu2~)
+Filename: pool/multiverse/n/nvidia-graphics-drivers-455/libnvidia-common-455_455.45.01-0ubuntu0.20.04.1_all.deb
+Size: 9308
+MD5sum: ffe25be9f42fd763ecdbc9e04be1685c
+SHA1: a452e885fe76658a607fefff25c7b3b095ffefd0
+SHA256: 52c8adba801cf7b1f05fb5cf4d73fbe50cd9ae8a43d0032e123751bc88047047
+SHA512: b1677fe6d5b378e6019ca508ecf2a1c67c8e59839cd38c1f2c76990fbff875bcd63c44fd1f205e9cfabbe17903a16714798bd32237676640bac12359aa514bb6
+Homepage: http://www.nvidia.com
+Description: Shared files used by the NVIDIA libraries
+Description-md5: 259c61ba4e777f5a2f1e7ee2fd1957bc
+
+Package: libnvidia-common-460-server
+Architecture: all
+Version: 460.91.03-0ubuntu0.20.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-460-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 35
+Provides: libnvidia-common
+Conflicts: libnvidia-common
+Breaks: libnvidia-gl-460-server (<< 390.25-0ubuntu2~)
+Replaces: libnvidia-common, libnvidia-gl-460-server (<< 390.25-0ubuntu2~)
+Filename: pool/multiverse/n/nvidia-graphics-drivers-460-server/libnvidia-common-460-server_460.91.03-0ubuntu0.20.04.1_all.deb
+Size: 9188
+MD5sum: d333a3f43b3786ba1b07102ba8107f39
+SHA1: fb1c50c73e00b93ab8a3c31d4db55e31420daf4d
+SHA256: b26c464b3af8d3070395fef32c63621d353504eb4b523bd2f2645b5d3eb22896
+SHA512: 8aa6d44a388797bfe0127898eb0057244805f90659dd92dff6edf94e08027db2255e6217f343ea8b26acb9bbd8eb2f2654040ab0aa0e6d0e287ef98d13e614ee
+Homepage: http://www.nvidia.com
+Description: Shared files used by the NVIDIA libraries
+Description-md5: 259c61ba4e777f5a2f1e7ee2fd1957bc
+
+Package: libnvidia-common-470-server
+Architecture: all
+Version: 470.57.02-0ubuntu0.20.04.2
+Multi-Arch: foreign
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-470-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 35
+Provides: libnvidia-common
+Conflicts: libnvidia-common
+Breaks: libnvidia-gl-470-server (<< 390.25-0ubuntu2~)
+Replaces: libnvidia-common, libnvidia-gl-470-server (<< 390.25-0ubuntu2~)
+Filename: pool/multiverse/n/nvidia-graphics-drivers-470-server/libnvidia-common-470-server_470.57.02-0ubuntu0.20.04.2_all.deb
+Size: 8932
+MD5sum: da049d9b5789a0cf43e2357583eb5b07
+SHA1: 70bf94f5995b16f72f169d13f2eec580f88a1cae
+SHA256: 50962b869ffcaac22ef39caca2badc93d23960dd3a3c7251a9c0f73a58f5fd54
+SHA512: d4af9908e5def40f8e223523a633f4f034b5c459ebb2e6b446238a080d9e0194ea8cdbaa536cff025bc7f9c02ea48fd07678f47663b7837870b199e83567afd4
+Homepage: http://www.nvidia.com
+Description: Shared files used by the NVIDIA libraries
+Description-md5: 259c61ba4e777f5a2f1e7ee2fd1957bc
+
+Package: libxilinx-vcu-dev
+Architecture: armhf
+Version: 2020.2-0ubuntu4~20.04.1
+Priority: optional
+Section: multiverse/libdevel
+Source: xilinx-vcu-ctrl
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 328
+Depends: libxilinx-vcu0 (= 2020.2-0ubuntu4~20.04.1)
+Filename: pool/multiverse/x/xilinx-vcu-ctrl/libxilinx-vcu-dev_2020.2-0ubuntu4~20.04.1_armhf.deb
+Size: 35600
+MD5sum: 1dd989af621c55e55ba84d74e910fbd5
+SHA1: 38792b3a1fdecdd3c8065531aaec484747513897
+SHA256: 5b785faaa210d83d7e9c170aaee3cb9d59fa586bd7ecde58884b564e594a5ca0
+SHA512: b0bf7004c4928435374f2f27dcf546a21c6d89c43f733ad5389f3cf0d4b88556a0837167cf20225409bcf5223df3701f11430c18f1dcac68c5e0abc96d74c5de
+Description: Xilinx VCU Ctrl Software - development files
+Description-md5: dd9c1c7496462871eee7c13df15361d4
+
+Package: libxilinx-vcu-omx-dev
+Architecture: armhf
+Version: 2020.2-0ubuntu4~20.04.1
+Priority: optional
+Section: multiverse/libdevel
+Source: xilinx-vcu-omx
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 425
+Depends: libxilinx-vcu-omx1 (= 2020.2-0ubuntu4~20.04.1)
+Filename: pool/multiverse/x/xilinx-vcu-omx/libxilinx-vcu-omx-dev_2020.2-0ubuntu4~20.04.1_armhf.deb
+Size: 61248
+MD5sum: d2ad03b1d4c26147d736de552269f441
+SHA1: a6b4038e10ad39e6760f01abccad78c13079c26f
+SHA256: 005a6362cf72f474d379b9d6ee0c6e801425f2ac33606d69058b3cfd86927c9c
+SHA512: 0d6e8db8a210e10a3d09faa8cea024bf70634fc111710c8cd49b29ad4cc64d91acb63702639ba99c67edc1f050b34957d6686b1b4bd5a2b660113eb616b2265c
+Description: Xilinx VCU OpenMax Integration Layer - development files
+Description-md5: c9acde522a8af24a93726e8bdaa8b75f
+
+Package: libxilinx-vcu-omx1
+Architecture: armhf
+Version: 2020.2-0ubuntu4~20.04.1
+Priority: optional
+Section: multiverse/libs
+Source: xilinx-vcu-omx
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1154
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libstdc++6 (>= 7), libxilinx-vcu0 (>= 2020.2)
+Filename: pool/multiverse/x/xilinx-vcu-omx/libxilinx-vcu-omx1_2020.2-0ubuntu4~20.04.1_armhf.deb
+Size: 280440
+MD5sum: 5eced9e6d7bb7b9adca8e6d90b3e034a
+SHA1: deba96b3cb91ae1a10869f8c62c197db3efb1d0c
+SHA256: 61b6cb28a89cf24e07fdaea2701d79e60f15c068c053da91df5b60ba4d87c8a0
+SHA512: f8d99b22635a8300a9271671f17fb99bc52d52a6f31f0b0f3d8dc52c78ffb2e86bda14dc8aa6818c995afbea682a9b01466e828836c33d7c1cffc5614e96ccc4
+Description: Xilinx VCU OpenMax Integration Layer - runtime libraries
+Description-md5: 337b06984c5fa06513c4730fa173a7da
+
+Package: libxilinx-vcu0
+Architecture: armhf
+Version: 2020.2-0ubuntu4~20.04.1
+Priority: optional
+Section: multiverse/libs
+Source: xilinx-vcu-ctrl
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 252
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5)
+Filename: pool/multiverse/x/xilinx-vcu-ctrl/libxilinx-vcu0_2020.2-0ubuntu4~20.04.1_armhf.deb
+Size: 117128
+MD5sum: a36bcd2ded53b47f37397d4e28e0b896
+SHA1: 78171e30f934c092e9e22681a860c0f2e830cda2
+SHA256: 4a541f226f6f4a1f905e4aee22d32f3499973a37cd0d7530032003c6e7eb3d04
+SHA512: be4191a5764078f73161966806292b3017f43a50b00bcc689af7526969c17a244a96de09f462b114bded6952065601b1041dee9cb3360ad8b173fce9395c0ede
+Description: Xilinx VCU Ctrl Software - runtime libraries
+Description-md5: a63af9df35a1e9071b74fdf5bd1aacb7
+
+Package: linux-firmware-raspi2
+Architecture: armhf
+Version: 4-0ubuntu0~20.04.1
+Priority: optional
+Section: multiverse/misc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 23751
+Breaks: flash-kernel (<< 3.103)
+Filename: pool/multiverse/l/linux-firmware-raspi2/linux-firmware-raspi2_4-0ubuntu0~20.04.1_armhf.deb
+Size: 5396272
+MD5sum: 54fc957e8f11d2692f54422bb866d9e7
+SHA1: 1303c418542faf0b6a2b8c8e65037e40b86827f6
+SHA256: 9616608c17fce157b2b67647784cef0b66a1f162fa22b91701d4b1ba2c68e3df
+SHA512: 72cc6e1d0737a65bf6a3170f08b730db33272efd006ea2308f0fca66a2774c83c0eb515187621259b16b8ecb7cf7e39ea8b3c4a0cef96b6032c2494ea64f80fb
+Homepage: https://github.com/raspberrypi/firmware
+Description: Raspberry Pi 2/3/4 GPU firmware and bootloaders
+Description-md5: 1eae7edc83929faa465de3cae99b870f
+
+Package: linux-firmware-xilinx-vcu
+Architecture: all
+Version: 2020.2-0ubuntu1~20.04.1
+Priority: optional
+Section: multiverse/graphics
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 223
+Filename: pool/multiverse/l/linux-firmware-xilinx-vcu/linux-firmware-xilinx-vcu_2020.2-0ubuntu1~20.04.1_all.deb
+Size: 80880
+MD5sum: 19246a0a3c88831f1db670c76d235168
+SHA1: 3857de019ce0fd232ea33455670fe404fc2b3788
+SHA256: 5d21b4716ee55c348f7596c2ac1b4ae6746cbec770a2a160e71e80cc9fef8c1f
+SHA512: 798010a15b1cebd3e60322a273aba8ce810aed6067eb92b96099e93c7eb59110cf3748eabcdcdf8139b3ca2f332d28c38379748935c11e6723abf2a2f5dd1aef
+Description: Xilinx VCU firmware files
+Description-md5: b8f7d69a1482504dcedb61b7f44e5d69
+
+Package: nvidia-libopencl1-331
+Architecture: armhf
+Version: 340.108-0ubuntu5.20.04.2
+Priority: optional
+Section: multiverse/misc
+Source: nvidia-graphics-drivers-340
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 21
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340/nvidia-libopencl1-331_340.108-0ubuntu5.20.04.2_armhf.deb
+Size: 6260
+MD5sum: 0a283ca08fca35aa46e6cc211acc9baf
+SHA1: 90838f0a39a53fa7c7df8e2a0351b97d60aa8f79
+SHA256: a5755909804c969db5d8173eb8de7d8a5fdff557ff7f11cbbfdb964ee87c67df
+SHA512: e2150dd4bbbe1b1bb5aaa88ec47d8a4b278fd59e110c3a3d33682f050fbd6778edc92da773d2b4c847705b00c95a231af84004c3f3ecb21df52580765c6c9a3c
+Description: Transitional package for nvidia-libopencl1-340
+Description-md5: c0bc1edc3452a373d95e34ed168d26d3
+
+Package: nvidia-libopencl1-331-updates
+Architecture: armhf
+Version: 340.108-0ubuntu5.20.04.2
+Priority: optional
+Section: multiverse/misc
+Source: nvidia-graphics-drivers-340
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 21
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340/nvidia-libopencl1-331-updates_340.108-0ubuntu5.20.04.2_armhf.deb
+Size: 6280
+MD5sum: 0829bd2e4668c1e250160cf9006ffc99
+SHA1: fbdcf605bd2f8fc14e52df5b40ded969857f69be
+SHA256: 8ff4a3bf26a3e93f6e0af6366c8a238d4b8d47525ab539913ed9986849d2ba2b
+SHA512: 38a4355ec57978fe4cd6de77cd53dc9ae9409417a645b493acdd9f13428648ef42a54a3ccd56dc2f21e2bb776226008d1e7a413bdbe7a46a6d36808ede427a44
+Description: Transitional package for nvidia-libopencl1-340
+Description-md5: c0bc1edc3452a373d95e34ed168d26d3
+
+Package: nvidia-modprobe
+Architecture: armhf
+Version: 465.24.02-1~ubuntu20.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: multiverse/utils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 45
+Depends: libc6 (>= 2.7)
+Filename: pool/multiverse/n/nvidia-modprobe/nvidia-modprobe_465.24.02-1~ubuntu20.04.1_armhf.deb
+Size: 16876
+MD5sum: bea652367afa38b677c7db48989c23e3
+SHA1: 88ed8c97f465e8608d38c5ea8473c94e5a5421a6
+SHA256: 275d0e2c8eb94021194bb95ebfc7863318bf25e4544e778b798a2ad36498fd36
+SHA512: 81ad8e55340aa5365a339a08fefcdc85495c2ff3eced8ad689b11ee3db3823cb624f1bd5444cddf5d82de1d885db577b5ba628fad9a8c92b001c14534c02df38
+Homepage: https://github.com/NVIDIA/nvidia-modprobe
+Description: utility to load NVIDIA kernel modules and create device nodes
+Description-md5: 681d2ef8dc157284d3ffc1ee5f3b75f7
+
+Package: nvidia-opencl-icd-331
+Architecture: armhf
+Version: 340.108-0ubuntu5.20.04.2
+Priority: optional
+Section: multiverse/misc
+Source: nvidia-graphics-drivers-340
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 21
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340/nvidia-opencl-icd-331_340.108-0ubuntu5.20.04.2_armhf.deb
+Size: 6264
+MD5sum: fcb7f48384e5ecd77ba8483349c96096
+SHA1: 93084ffe4f2092f46d17c8d3e4cbfd58aee23a6d
+SHA256: 4c9765089dbbd40b8d6b8ac12dfa59f5f45de1728a5c2683ceb786fb4b4a50ec
+SHA512: 80803c2ab1b69bc99f65470ce016004e3e22fab9c44b265ace43118b8c5fc5a8078566fd79cdca0f49d82f5bd60b6ed5574832fb8c2dc0b2a6b26fa0e042145d
+Description: Transitional package for nvidia-opencl-icd-340
+Description-md5: 5698808952d1d1454e2b98d80ab83d79
+
+Package: nvidia-opencl-icd-331-updates
+Architecture: armhf
+Version: 340.108-0ubuntu5.20.04.2
+Priority: optional
+Section: multiverse/misc
+Source: nvidia-graphics-drivers-340
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 21
+Filename: pool/multiverse/n/nvidia-graphics-drivers-340/nvidia-opencl-icd-331-updates_340.108-0ubuntu5.20.04.2_armhf.deb
+Size: 6284
+MD5sum: 54d24e0f3899269e64f832f110a657c6
+SHA1: f85b7be3bf76660143206093027c5f88b04c375c
+SHA256: e60cc700834fc0781ddae3ac2ba36a37fdde7478c2fdf6908f2e2d056a84e9ab
+SHA512: a4b36a2b9583285885319304ecc5442b6d2eca4e3c59a5491bd855e8c968b565fb4b890e307c036e54b4a690a9e8fdabfac9d8fb04bc9fb3e6b6b8dd035126a7
+Description: Transitional package for nvidia-opencl-icd-340
+Description-md5: 5698808952d1d1454e2b98d80ab83d79
+
+Package: pi-bluetooth
+Architecture: armhf
+Version: 0.1.15ubuntu0~20.04.1
+Priority: optional
+Section: multiverse/misc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Serge Schneider <serge@raspberrypi.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 29
+Depends: bluez (>= 5.50-1.2~deb10u1+rpt1), linux-firmware-raspi2 (>= 1.20190215-0ubuntu2)
+Filename: pool/multiverse/p/pi-bluetooth/pi-bluetooth_0.1.15ubuntu0~20.04.1_armhf.deb
+Size: 5548
+MD5sum: 9d602281819edde99803def036472d93
+SHA1: bf6d6d5829c5ddd0afc0441671fd8e3c68a87a14
+SHA256: f66db99d0c6847d8111d5c9274a9b89ff2ee7e84ddaa5adf23eeca711c28c064
+SHA512: 884279b39e259d687ce05e04fe3dbb6f0acd7c56262d8558d7c2bbed6a6674c6ba10f5dc3cc6411baa091f6c856d7a85e2d8b04c456e9528e4f2ee550876e5eb
+Homepage: https://github.com/RPi-Distro/pi-bluetooth
+Description: Raspberry Pi 3 bluetooth
+Description-md5: 969edfa3554f6f3cd1ddaca2226fe3a8
+
+Package: rpi-eeprom
+Architecture: armhf
+Version: 11.3-1ubuntu1~20.04.1
+Priority: optional
+Section: multiverse/misc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Serge Schneider <serge@raspberrypi.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 9621
+Depends: libraspberrypi-bin, python3, binutils, linux-firmware-raspi2 (>= 1.20190819), pciutils
+Suggests: flashrom
+Filename: pool/multiverse/r/rpi-eeprom/rpi-eeprom_11.3-1ubuntu1~20.04.1_armhf.deb
+Size: 413588
+MD5sum: c3175241d4ca495018b2a12360caa988
+SHA1: 80a11dd3b40241b97defd7446ef90a89908ce0cf
+SHA256: d1e87681f47ca45af17149cd29b6659a7084f9e03800a45bd3db82dfd10c8803
+SHA512: 8b34fb0338c0a283c1f54b1c281a1d249ee5440605eca1a7a3907e31f25cc671f102fffbd152079e76bc7cb13cdd79578d420567d7277fd777f49b960fafe74a
+Homepage: https://github.com/raspberrypi/rpi-eeprom/
+Description: Raspberry Pi 4 boot EEPROM updater
+Description-md5: 8f4e6086b5990bf4883e9173f137f84e
+
+Package: virtualbox-ext-pack
+Architecture: all
+Version: 6.1.22-1~ubuntu1.20.04.1
+Priority: extra
+Section: multiverse/misc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 139
+Pre-Depends: debconf
+Depends: virtualbox (>= 6.1.22-dfsg-0~) | virtualbox-6.1, virtualbox (<< 6.1.22-dfsg-z) | virtualbox-6.1, wget, debconf (>= 0.5) | debconf-2.0
+Filename: pool/multiverse/v/virtualbox-ext-pack/virtualbox-ext-pack_6.1.22-1~ubuntu1.20.04.1_all.deb
+Size: 10588
+MD5sum: 80735ba94350f1626c1d09fff552073b
+SHA1: 3a096146dcd2075b040839417d84d343c20ec4ab
+SHA256: 8415f74ed3033bd813a64e74ce122169a3ab382f4f3f29023fb956293b953d87
+SHA512: c699702c6a4d0dcbea305bf32055e361891461dbbb086c10a00b5e15c5d13f9b7a41a41b0745f53600cd8cc92b94e35d14569dd961a2774d66899c4d706c9734
+Homepage: https://www.virtualbox.org
+Description: extra capabilities for VirtualBox, downloader.
+Description-md5: d34299a0a1c7bf804958800947ea531c
+
+Package: virtualbox-guest-additions-iso
+Architecture: all
+Version: 6.1.22-1~ubuntu1.20.04.1
+Priority: extra
+Section: multiverse/misc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 59613
+Recommends: virtualbox (>= 6.1.22)
+Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0, virtualbox-5.1, virtualbox-5.2, virtualbox-6.0
+Filename: pool/multiverse/v/virtualbox-guest-additions-iso/virtualbox-guest-additions-iso_6.1.22-1~ubuntu1.20.04.1_all.deb
+Size: 44790436
+MD5sum: e90f91945f5b37dd9f2b7e9d5844558b
+SHA1: d8a1f9cbc4dd640375743ed846732d03055df13d
+SHA256: 75ffc2fbb1877e8f8c289742950fc199316101599f9a584fe3b913043838ffe3
+SHA512: 72478220f3d6724b205410660a2be249cbd2ccc2f1900c7214a837ef7ef07036b5eabafe71331766e545071fc5f04ed555ddc24031a0e37f37113ec086236caa
+Homepage: https://www.virtualbox.org
+Description: guest additions iso image for VirtualBox
+Description-md5: 11a9eaac064138ec238f7c2ee4c018df
+
+Package: virtualbox-guest-dkms
+Architecture: all
+Version: 6.1.22-dfsg-2~ubuntu1.20.04.1
+Priority: optional
+Section: multiverse/kernel
+Source: virtualbox
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7513
+Provides: virtualbox-guest-modules
+Depends: dkms (>= 2.1.0.0)
+Filename: pool/multiverse/v/virtualbox/virtualbox-guest-dkms_6.1.22-dfsg-2~ubuntu1.20.04.1_all.deb
+Size: 669744
+MD5sum: e2eb44dfb48dd6aab38a4cef142ed809
+SHA1: 91b30620fc34c98ecca49206a8eeb123396a886c
+SHA256: 08a61de26796dc9e72552b420f12a969474bd23a4e89530ff95f8d8c86fe9f07
+SHA512: ecf6aecffe8ac4c176f40ce06aaba6e5d9307bab18f56742eed4c49d377b3c792adec953826b22b7d127dd3bd171f01ccc5f00ee4a79470a75bce498b219ce37
+Homepage: https://www.virtualbox.org
+Description: x86 virtualization solution - guest addition module source for dkms
+Modaliases: vboxguest(pci:v000080EEd0000CAFEsv00000000sd00000000bc*sc*i*)
+Description-md5: e15ead9377a7f1e325ded819d3cfaf8b
+
+Package: virtualbox-guest-dkms-hwe
+Architecture: all
+Version: 6.1.22-dfsg-2~ubuntu1.20.04.1
+Priority: optional
+Section: multiverse/kernel
+Source: virtualbox-hwe
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7269
+Provides: virtualbox-guest-dkms, virtualbox-guest-modules
+Depends: dkms (>= 2.1.0.0)
+Conflicts: virtualbox-guest-dkms
+Replaces: virtualbox-guest-dkms
+Filename: pool/multiverse/v/virtualbox-hwe/virtualbox-guest-dkms-hwe_6.1.22-dfsg-2~ubuntu1.20.04.1_all.deb
+Size: 629960
+MD5sum: 695710a5b35f7cf8da3ab43e5b368438
+SHA1: 1679266dc1c737c57198c79d3204de9d64139cc2
+SHA256: 9d4cdfc034cd995f01cc7d532830a52d87f7d47f238fecb9353fd0f64bac460a
+SHA512: 0e4cd154915ae0de0f12c94ad4c1af8dd2fc30cdefebea77cca7a1e9466fc914c71831794d3f2ae2ebfa2fd5fe3ed06365d7e6c2a4649fc31a5258fb616bf596
+Homepage: https://www.virtualbox.org
+Description: x86 virtualization solution - guest addition module source for dkms
+Modaliases: vboxguest(pci:v000080EEd0000CAFEsv00000000sd00000000bc*sc*i*)
+Description-md5: 5da76c89e724bb98d7f67d251fa8de7d
+
+Package: virtualbox-guest-source
+Architecture: all
+Version: 6.1.22-dfsg-2~ubuntu1.20.04.1
+Priority: optional
+Section: multiverse/kernel
+Source: virtualbox
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1185
+Depends: build-essential, bzip2, debhelper-compat (= 12), kbuild, module-assistant
+Filename: pool/multiverse/v/virtualbox/virtualbox-guest-source_6.1.22-dfsg-2~ubuntu1.20.04.1_all.deb
+Size: 1112800
+MD5sum: 4bd3d88d25e3ae4a6ecc8d64ef748067
+SHA1: 16baf46aa800885aebbb962da0e4ca992c716044
+SHA256: 0f0971aac58da1a6e3c0fd7cde182280723134f73947d707831022bbaeb508c8
+SHA512: 63a5ece6a5b6351d84d827298770ee5137a085c3a3a522d7467f35c80a4f206f29a8e86bbf3ddec8ab92fa2ae0b7a63145b4f443ff6ee3c3389b09213df459f8
+Homepage: https://www.virtualbox.org
+Description: x86 virtualization solution - guest addition module source
+Description-md5: 4e8ea50b26a8f2bc5f4e7ef943a32a06
+
+Package: virtualbox-guest-source-hwe
+Architecture: all
+Version: 6.1.22-dfsg-2~ubuntu1.20.04.1
+Priority: optional
+Section: multiverse/kernel
+Source: virtualbox-hwe
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1189
+Provides: virtualbox-guest-source
+Depends: build-essential, bzip2, debhelper-compat (= 12), kbuild, module-assistant
+Conflicts: virtualbox-guest-source
+Replaces: virtualbox-guest-source
+Filename: pool/multiverse/v/virtualbox-hwe/virtualbox-guest-source-hwe_6.1.22-dfsg-2~ubuntu1.20.04.1_all.deb
+Size: 1114592
+MD5sum: 84288093f966c3783573e1c825171e55
+SHA1: c63832ec8ace071ed28cfe84dd4ba597e8cba9a0
+SHA256: ac332d334c0199ef1b9972064c371664ea5bd01f571bef8dce1e8f98ffd3777e
+SHA512: 598f89b5219e7accc0781fb9c94b0719510f2d92682c4afcbfd7696eefe73b020a352b48f46f28da564a6066f46a1415b46d433afba5f0e743de9812de191a0a
+Homepage: https://www.virtualbox.org
+Description: x86 virtualization solution - guest addition module source
+Description-md5: 4e8ea50b26a8f2bc5f4e7ef943a32a06
+
+Package: xilinx-vcu-ctrl
+Architecture: armhf
+Version: 2020.2-0ubuntu4~20.04.1
+Priority: optional
+Section: multiverse/devel
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 943
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libstdc++6 (>= 9)
+Filename: pool/multiverse/x/xilinx-vcu-ctrl/xilinx-vcu-ctrl_2020.2-0ubuntu4~20.04.1_armhf.deb
+Size: 336088
+MD5sum: 3f6de75631c5ee267b3dc5acd5a2cabd
+SHA1: c9605ffaf18436b59f6cff4bc1e51c572c54596d
+SHA256: e205fdac5858d160c2e41dda51ebeea392c23186e6763bea3ed4d7c444d8a974
+SHA512: 0ad8efc304d062b800076cf7614711305dbafd16602cd6374e124b8e702fd12e34e5e3132521c960bf368e8f83b6beb69bb48f08fd1e52e8188e1adf0d19b73b
+Description: Xilinx VCU Ctrl Software - command-line utilities
+Description-md5: acee9828897532660b92ce39668baa97
+
+Package: xilinx-vcu-omx-utils
+Architecture: armhf
+Version: 2020.2-0ubuntu4~20.04.1
+Priority: optional
+Section: multiverse/graphics
+Source: xilinx-vcu-omx
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 280
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libstdc++6 (>= 9), libxilinx-vcu-omx1 (>= 2020.2), libxilinx-vcu0 (>= 2020.2)
+Filename: pool/multiverse/x/xilinx-vcu-omx/xilinx-vcu-omx-utils_2020.2-0ubuntu4~20.04.1_armhf.deb
+Size: 96540
+MD5sum: 3485c651be019902c937b40b578117de
+SHA1: a49d30be692b29b4e11404660d703433df8c1aaf
+SHA256: ef95212a31db835b89d227381e368d51b1e2d2f3017eac61023b4167e60c615f
+SHA512: f41358c7e2f97ef3b2868dd5447a4e1d2835a0402c5d47620e9c8a715487b6d2a2afc17ea880ffa2a69932484fb4bc00a1ae79567f2f1a0d4275e3c433ea14dd
+Description: Xilinx VCU OpenMax Integration Layer - command-line utilities
+Description-md5: 1cdd23f87e9e70c7ada144eb83a42f8f
+

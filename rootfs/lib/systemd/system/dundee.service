@@ -1,0 +1,11 @@
+[Unit]
+Description=DUN service
+
+[Service]
+Type=dbus
+BusName=org.ofono.dundee
+ExecStart=/usr/sbin/dundee -n
+StandardError=null
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,74 @@
+Aug  6 17:52:21 arm systemd-logind[3764]: New seat seat0.
+Aug  6 17:53:00 arm login[4340]: pam_unix(login:auth): Couldn't open /etc/securetty: No such file or directory
+Aug  6 17:53:02 arm login[4340]: pam_unix(login:auth): Couldn't open /etc/securetty: No such file or directory
+Aug  6 17:53:02 arm login[4340]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Aug  6 17:53:02 arm systemd-logind[3764]: New session 1 of user ubuntu.
+Aug  6 17:53:02 arm systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Aug  6 17:57:22 arm sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Aug  6 17:57:26 arm sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Aug  6 17:57:26 arm sudo:   ubuntu : TTY=ttyPS0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+Aug  6 17:57:26 arm sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug  6 17:57:31 arm passwd[6058]: pam_unix(passwd:chauthtok): password changed for root
+Aug  6 17:57:34 arm sudo: pam_unix(sudo:session): session closed for user root
+Aug  6 17:57:36 arm sshd[6133]: Server listening on 0.0.0.0 port 22.
+Aug  6 17:57:36 arm sshd[6133]: Server listening on :: port 22.
+Aug  6 17:57:40 arm sudo:   ubuntu : TTY=ttyPS0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/passwd ubuntu
+Aug  6 17:57:40 arm sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug  6 17:57:45 arm passwd[6159]: pam_unix(passwd:chauthtok): password changed for ubuntu
+Aug  6 17:57:45 arm sudo: pam_unix(sudo:session): session closed for user root
+Aug  6 17:57:49 arm sudo:   ubuntu : TTY=ttyPS0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+Aug  6 17:57:49 arm sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug  6 18:00:48 arm sudo: pam_unix(sudo:session): session closed for user root
+Aug  6 18:02:35 arm systemd-logind[3879]: New seat seat0.
+Aug  6 18:04:01 arm login[4441]: pam_unix(login:auth): Couldn't open /etc/securetty: No such file or directory
+Aug  6 18:04:03 arm login[4441]: pam_unix(login:auth): Couldn't open /etc/securetty: No such file or directory
+Aug  6 18:04:03 arm login[4441]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Aug  6 18:04:03 arm systemd-logind[3879]: New session 1 of user ubuntu.
+Aug  6 18:04:03 arm systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Aug  6 18:04:36 arm sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Aug  6 18:04:37 arm sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Aug  6 18:04:37 arm sudo:   ubuntu : TTY=ttyPS0 ; PWD=/etc/network ; USER=root ; COMMAND=/bin/bash
+Aug  6 18:04:37 arm sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug  6 18:08:54 arm sudo: pam_unix(sudo:session): session closed for user root
+Aug  6 18:10:43 arm systemd-logind[3678]: New seat seat0.
+Aug  6 18:11:49 arm login[5908]: pam_unix(login:auth): Couldn't open /etc/securetty: No such file or directory
+Aug  6 18:11:51 arm login[5908]: pam_unix(login:auth): Couldn't open /etc/securetty: No such file or directory
+Aug  6 18:11:51 arm login[5908]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Aug  6 18:11:51 arm systemd-logind[3678]: New session 1 of user ubuntu.
+Aug  6 18:11:51 arm systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Aug  6 18:12:43 arm sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Aug  6 18:12:46 arm sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Aug  6 18:12:46 arm sudo: pam_unix(sudo:auth): authentication failure; logname=ubuntu uid=1000 euid=0 tty=/dev/ttyPS0 ruser=ubuntu rhost=  user=ubuntu
+Aug  6 18:12:48 arm sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Aug  6 18:12:50 arm sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Aug  6 18:12:50 arm sudo:   ubuntu : TTY=ttyPS0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+Aug  6 18:12:50 arm sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug  6 18:13:01 arm sshd[6160]: Server listening on 0.0.0.0 port 22.
+Aug  6 18:13:01 arm sshd[6160]: Server listening on :: port 22.
+Aug  6 18:17:02 arm CRON[7416]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug  6 18:17:02 arm CRON[7416]: pam_unix(cron:session): session closed for user root
+Aug  6 19:17:01 arm CRON[7425]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug  6 19:17:01 arm CRON[7425]: pam_unix(cron:session): session closed for user root
+Aug  6 19:20:46 arm gpasswd[10008]: user syslog added by root to group tty
+Aug  6 19:22:38 arm sshd[6160]: Received signal 15; terminating.
+Aug  6 19:22:38 arm sshd[15498]: Server listening on 0.0.0.0 port 22.
+Aug  6 19:22:38 arm sshd[15498]: Server listening on :: port 22.
+Aug  6 20:17:01 arm CRON[17162]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug  6 20:17:01 arm CRON[17162]: pam_unix(cron:session): session closed for user root
+Aug  6 20:34:05 arm sshd[15498]: Received signal 15; terminating.
+Aug  6 20:34:05 arm sshd[17269]: Server listening on 0.0.0.0 port 22.
+Aug  6 20:34:05 arm sshd[17269]: Server listening on :: port 22.
+Aug  6 20:35:50 arm sudo: pam_unix(sudo:session): session closed for user root
+Aug  6 20:35:51 arm dbus-daemon[3517]: [system] Rejected send message, 0 matched rules; type="error", sender=":1.3" (uid=0 pid=3595 comm="/usr/sbin/dundee -n ") interface="(unset)" member="(unset)" error name="org.bluez.Error.NotImplemented" requested_reply="0" destination=":1.18" (uid=0 pid=14991 comm="/usr/lib/bluetooth/bluetoothd ")
+Aug  6 20:36:08 arm systemd-logind[3849]: New seat seat0.
+Aug  6 20:37:08 arm login[8533]: pam_unix(login:auth): Couldn't open /etc/securetty: No such file or directory
+Aug  6 20:37:10 arm login[8533]: pam_unix(login:auth): Couldn't open /etc/securetty: No such file or directory
+Aug  6 20:37:10 arm login[8533]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Aug  6 20:37:10 arm systemd-logind[3849]: New session 1 of user ubuntu.
+Aug  6 20:37:10 arm systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Aug  6 20:40:56 arm sshd[8579]: Server listening on 0.0.0.0 port 22.
+Aug  6 20:40:56 arm sshd[8579]: Server listening on :: port 22.
+Aug  6 20:43:33 arm sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Aug  6 20:43:35 arm sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Aug  6 20:43:35 arm sudo:   ubuntu : TTY=ttyPS0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+Aug  6 20:43:35 arm sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)

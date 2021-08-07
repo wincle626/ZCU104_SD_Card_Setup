@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libbfd-2.34-system.so
+/usr/lib/arm-linux-gnueabihf/libopcodes-2.34-system.so
+/usr/share
+/usr/share/doc
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libbinutils
+/usr/share/doc/libbinutils

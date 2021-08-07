@@ -1,0 +1,15 @@
+/etc/kernel/postinst.d/zz-uenv_txt
+/etc/modprobe.d/rtl8723bu-blacklist.conf
+/etc/udev/rules.d/10-of-symlink.rules
+/etc/udev/rules.d/60-omap-tty.rules
+/etc/udev/rules.d/80-eeprom-noroot.rules
+/etc/udev/rules.d/80-gpio-noroot.rules
+/etc/udev/rules.d/80-i2c-noroot.rules
+/etc/udev/rules.d/81-pwm-noroot.rules
+/etc/udev/rules.d/82-gpio-config-pin.rules
+/etc/udev/rules.d/83-eqep-noroot.rules
+/etc/udev/rules.d/85-gpio-noroot.rules
+/etc/udev/rules.d/86-remoteproc-noroot.rules
+/etc/udev/rules.d/86-rpmsg-noroot.rules
+/etc/udev/rules.d/87-iio-noroot.rules
+/etc/udev/rules.d/88-leds-noroot.rules

@@ -1,0 +1,7 @@
+/etc/apt/apt.conf.d/20apt-esm-hook.conf
+/etc/logrotate.d/ubuntu-advantage-tools
+/etc/ubuntu-advantage/help_data.yaml
+/etc/ubuntu-advantage/uaclient.conf
+/etc/update-manager/release-upgrades.d/ubuntu-advantage-upgrades.cfg
+/etc/update-motd.d/88-esm-announce
+/etc/update-motd.d/91-contract-ua-esm-status

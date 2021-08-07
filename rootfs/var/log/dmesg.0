@@ -1,0 +1,374 @@
+[    0.000000] kernel: Booting Linux on physical CPU 0x0000000000 [0x410fd034]
+[    0.000000] kernel: Linux version 4.19.0 (udrc@udrc-Alienware-m15) (gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04)) #1 SMP Thu Aug 5 21:59:55 BST 2021
+[    0.000000] kernel: Machine model: ZynqMP ZCU104 RevA
+[    0.000000] kernel: efi: Getting EFI parameters from FDT:
+[    0.000000] kernel: efi: UEFI not found.
+[    0.000000] kernel: cma: Reserved 256 MiB at 0x0000000070000000
+[    0.000000] kernel: On node 0 totalpages: 524288
+[    0.000000] kernel:   DMA32 zone: 7168 pages used for memmap
+[    0.000000] kernel:   DMA32 zone: 0 pages reserved
+[    0.000000] kernel:   DMA32 zone: 524288 pages, LIFO batch:63
+[    0.000000] kernel: psci: probing for conduit method from DT.
+[    0.000000] kernel: psci: PSCIv1.1 detected in firmware.
+[    0.000000] kernel: psci: Using standard PSCI v0.2 function IDs
+[    0.000000] kernel: psci: MIGRATE_INFO_TYPE not supported.
+[    0.000000] kernel: psci: SMC Calling Convention v1.1
+[    0.000000] kernel: random: get_random_bytes called from start_kernel+0xa8/0x414 with crng_init=0
+[    0.000000] kernel: percpu: Embedded 22 pages/cpu @(____ptrval____) s52504 r8192 d29416 u90112
+[    0.000000] kernel: pcpu-alloc: s52504 r8192 d29416 u90112 alloc=22*4096
+[    0.000000] kernel: pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+[    0.000000] kernel: Detected VIPT I-cache on CPU0
+[    0.000000] kernel: CPU features: enabling workaround for ARM erratum 845719
+[    0.000000] kernel: Speculative Store Bypass Disable mitigation not required
+[    0.000000] kernel: CPU features: detected: Kernel page table isolation (KPTI)
+[    0.000000] kernel: Built 1 zonelists, mobility grouping on.  Total pages: 517120
+[    0.000000] kernel: Kernel command line: root=/dev/mmcblk0p2 rw rootwait
+[    0.000000] kernel: Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+[    0.000000] kernel: Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+[    0.000000] kernel: Memory: 1786524K/2097152K available (10876K kernel code, 626K rwdata, 3240K rodata, 832K init, 312K bss, 48484K reserved, 262144K cma-reserved)
+[    0.000000] kernel: rcu: Hierarchical RCU implementation.
+[    0.000000] kernel: rcu:         RCU event tracing is enabled.
+[    0.000000] kernel: rcu:         RCU restricting CPUs from NR_CPUS=8 to nr_cpu_ids=4.
+[    0.000000] kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+[    0.000000] kernel: NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+[    0.000000] kernel: GIC: Adjusting CPU interface base to 0x00000000f902f000
+[    0.000000] kernel: GIC: Using split EOI/Deactivate mode
+[    0.000000] kernel: arch_timer: cp15 timer(s) running at 100.00MHz (phys).
+[    0.000000] kernel: clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x171024e7e0, max_idle_ns: 440795205315 ns
+[    0.000003] kernel: sched_clock: 56 bits at 100MHz, resolution 10ns, wraps every 4398046511100ns
+[    0.000217] kernel: Console: colour dummy device 80x25
+[    0.000411] kernel: console [tty0] enabled
+[    0.000431] kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 200.00 BogoMIPS (lpj=400000)
+[    0.000446] kernel: pid_max: default: 32768 minimum: 301
+[    0.000560] kernel: Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000576] kernel: Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.001285] kernel: ASID allocator initialised with 32768 entries
+[    0.001340] kernel: rcu: Hierarchical SRCU implementation.
+[    0.001621] kernel: EFI services will not be available.
+[    0.001740] kernel: smp: Bringing up secondary CPUs ...
+[    0.002016] kernel: Detected VIPT I-cache on CPU1
+[    0.002045] kernel: CPU1: Booted secondary processor 0x0000000001 [0x410fd034]
+[    0.002351] kernel: Detected VIPT I-cache on CPU2
+[    0.002371] kernel: CPU2: Booted secondary processor 0x0000000002 [0x410fd034]
+[    0.002651] kernel: Detected VIPT I-cache on CPU3
+[    0.002671] kernel: CPU3: Booted secondary processor 0x0000000003 [0x410fd034]
+[    0.002714] kernel: smp: Brought up 1 node, 4 CPUs
+[    0.002756] kernel: SMP: Total of 4 processors activated.
+[    0.002766] kernel: CPU features: detected: 32-bit EL0 Support
+[    0.004118] kernel: CPU: All CPU(s) started at EL2
+[    0.004136] kernel: alternatives: patching kernel code
+[    0.005003] kernel: devtmpfs: initialized
+[    0.008873] kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[    0.008895] kernel: futex hash table entries: 1024 (order: 4, 65536 bytes)
+[    0.013806] kernel: xor: measuring software checksum speed
+[    0.052169] kernel:    8regs     :  2303.000 MB/sec
+[    0.092202] kernel:    8regs_prefetch:  2053.000 MB/sec
+[    0.132237] kernel:    32regs    :  2831.000 MB/sec
+[    0.172265] kernel:    32regs_prefetch:  2379.000 MB/sec
+[    0.172273] kernel: xor: using function: 32regs (2831.000 MB/sec)
+[    0.172288] kernel: pinctrl core: initialized pinctrl subsystem
+[    0.172904] kernel: NET: Registered protocol family 16
+[    0.173152] kernel: audit: initializing netlink subsys (disabled)
+[    0.173220] kernel: audit: type=2000 audit(0.172:1): state=initialized audit_enabled=0 res=1
+[    0.173633] kernel: cpuidle: using governor menu
+[    0.173730] kernel: vdso: 2 pages (1 code @ (____ptrval____), 1 data @ (____ptrval____))
+[    0.173744] kernel: hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+[    0.174548] kernel: DMA: preallocated 256 KiB pool for atomic allocations
+[    0.186541] kernel: HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+[    0.252448] kernel: raid6: int64x1  gen()   427 MB/s
+[    0.320430] kernel: raid6: int64x1  xor()   356 MB/s
+[    0.388483] kernel: raid6: int64x2  gen()   665 MB/s
+[    0.456552] kernel: raid6: int64x2  xor()   538 MB/s
+[    0.524579] kernel: raid6: int64x4  gen()  1030 MB/s
+[    0.592614] kernel: raid6: int64x4  xor()   734 MB/s
+[    0.660673] kernel: raid6: int64x8  gen()   982 MB/s
+[    0.728715] kernel: raid6: int64x8  xor()   746 MB/s
+[    0.796839] kernel: raid6: neonx1   gen()   708 MB/s
+[    0.864831] kernel: raid6: neonx1   xor()   726 MB/s
+[    0.932872] kernel: raid6: neonx2   gen()  1147 MB/s
+[    1.000921] kernel: raid6: neonx2   xor()  1143 MB/s
+[    1.068976] kernel: raid6: neonx4   gen()  1512 MB/s
+[    1.136995] kernel: raid6: neonx4   xor()  1419 MB/s
+[    1.205047] kernel: raid6: neonx8   gen()  1663 MB/s
+[    1.273103] kernel: raid6: neonx8   xor()  1523 MB/s
+[    1.273111] kernel: raid6: using algorithm neonx8 gen() 1663 MB/s
+[    1.273119] kernel: raid6: .... xor() 1523 MB/s, rmw enabled
+[    1.273127] kernel: raid6: using neon recovery algorithm
+[    1.273770] kernel: SCSI subsystem initialized
+[    1.273811] kernel: libata version 3.00 loaded.
+[    1.273955] kernel: usbcore: registered new interface driver usbfs
+[    1.273992] kernel: usbcore: registered new interface driver hub
+[    1.274034] kernel: usbcore: registered new device driver usb
+[    1.274098] kernel: media: Linux media interface: v0.10
+[    1.274125] kernel: videodev: Linux video capture interface: v2.00
+[    1.274157] kernel: pps_core: LinuxPPS API ver. 1 registered
+[    1.274166] kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    1.274187] kernel: PTP clock support registered
+[    1.274213] kernel: EDAC MC: Ver: 3.0.0
+[    1.274607] kernel: zynqmp-ipi-mbox mailbox@ff990400: Probed ZynqMP IPI Mailbox driver.
+[    1.274791] kernel: FPGA manager framework
+[    1.274934] kernel: Advanced Linux Sound Architecture Driver Initialized.
+[    1.275231] kernel: Bluetooth: Core ver 2.22
+[    1.275258] kernel: NET: Registered protocol family 31
+[    1.275266] kernel: Bluetooth: HCI device and connection manager initialized
+[    1.275278] kernel: Bluetooth: HCI socket layer initialized
+[    1.275287] kernel: Bluetooth: L2CAP socket layer initialized
+[    1.275311] kernel: Bluetooth: SCO socket layer initialized
+[    1.275601] kernel: clocksource: Switched to clocksource arch_sys_counter
+[    1.275686] kernel: VFS: Disk quotas dquot_6.6.0
+[    1.275733] kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    1.280142] kernel: NET: Registered protocol family 2
+[    1.280496] kernel: tcp_listen_portaddr_hash hash table entries: 1024 (order: 2, 16384 bytes)
+[    1.280529] kernel: TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+[    1.280641] kernel: TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+[    1.280849] kernel: TCP: Hash tables configured (established 16384 bind 16384)
+[    1.280913] kernel: UDP hash table entries: 1024 (order: 3, 32768 bytes)
+[    1.280958] kernel: UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+[    1.281082] kernel: NET: Registered protocol family 1
+[    1.281284] kernel: RPC: Registered named UNIX socket transport module.
+[    1.281293] kernel: RPC: Registered udp transport module.
+[    1.281301] kernel: RPC: Registered tcp transport module.
+[    1.281308] kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    1.281565] kernel: PCI: CLS 0 bytes, default 64
+[    1.281959] kernel: hw perfevents: no interrupt-affinity property for /pmu, guessing.
+[    1.282109] kernel: hw perfevents: enabled with armv8_pmuv3 PMU driver, 7 counters available
+[    1.282896] kernel: Initialise system trusted keyrings
+[    1.282983] kernel: workingset: timestamp_bits=62 max_order=19 bucket_order=0
+[    1.283817] kernel: NFS: Registering the id_resolver key type
+[    1.283833] kernel: Key type id_resolver registered
+[    1.283840] kernel: Key type id_legacy registered
+[    1.283853] kernel: nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+[    1.283873] kernel: jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+[    2.359330] kernel: NET: Registered protocol family 38
+[    2.418218] kernel: Key type asymmetric registered
+[    2.418228] kernel: Asymmetric key parser 'x509' registered
+[    2.418269] kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+[    2.418282] kernel: io scheduler noop registered
+[    2.418290] kernel: io scheduler deadline registered
+[    2.418325] kernel: io scheduler cfq registered (default)
+[    2.418334] kernel: io scheduler mq-deadline registered
+[    2.418342] kernel: io scheduler kyber registered
+[    2.445948] kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+[    2.448690] kernel: cacheinfo: Unable to detect cache hierarchy for CPU 0
+[    2.453244] kernel: brd: module loaded
+[    2.457203] kernel: loop: module loaded
+[    2.457915] kernel: mtdoops: mtd device (mtddev=name/number) must be supplied
+[    2.459173] kernel: libphy: Fixed MDIO Bus: probed
+[    2.460469] kernel: tun: Universal TUN/TAP device driver, 1.6
+[    2.460603] kernel: CAN device driver interface
+[    2.461329] kernel: usbcore: registered new interface driver asix
+[    2.461361] kernel: usbcore: registered new interface driver ax88179_178a
+[    2.461394] kernel: usbcore: registered new interface driver cdc_ether
+[    2.461424] kernel: usbcore: registered new interface driver net1080
+[    2.461455] kernel: usbcore: registered new interface driver cdc_subset
+[    2.461484] kernel: usbcore: registered new interface driver zaurus
+[    2.461521] kernel: usbcore: registered new interface driver cdc_ncm
+[    2.462129] kernel: usbcore: registered new interface driver uas
+[    2.462172] kernel: usbcore: registered new interface driver usb-storage
+[    2.463027] kernel: rtc_zynqmp ffa60000.rtc: rtc core: registered ffa60000.rtc as rtc0
+[    2.463093] kernel: i2c /dev entries driver
+[    2.464466] kernel: usbcore: registered new interface driver uvcvideo
+[    2.464480] kernel: USB Video Class driver (1.1.1)
+[    2.464953] kernel: Bluetooth: HCI UART driver ver 2.3
+[    2.464967] kernel: Bluetooth: HCI UART protocol H4 registered
+[    2.464975] kernel: Bluetooth: HCI UART protocol BCSP registered
+[    2.465003] kernel: Bluetooth: HCI UART protocol LL registered
+[    2.465012] kernel: Bluetooth: HCI UART protocol ATH3K registered
+[    2.465036] kernel: Bluetooth: HCI UART protocol Three-wire (H5) registered
+[    2.465081] kernel: Bluetooth: HCI UART protocol Intel registered
+[    2.465106] kernel: Bluetooth: HCI UART protocol QCA registered
+[    2.465146] kernel: usbcore: registered new interface driver bcm203x
+[    2.465184] kernel: usbcore: registered new interface driver bpa10x
+[    2.465223] kernel: usbcore: registered new interface driver bfusb
+[    2.465260] kernel: usbcore: registered new interface driver btusb
+[    2.465269] kernel: Bluetooth: Generic Bluetooth SDIO driver ver 0.1
+[    2.465322] kernel: usbcore: registered new interface driver ath3k
+[    2.465446] kernel: EDAC MC: ECC not enabled
+[    2.465593] kernel: EDAC DEVICE0: Giving out device to module zynqmp-ocm-edac controller zynqmp_ocm: DEV ff960000.memory-controller (INTERRUPT)
+[    2.466309] kernel: sdhci: Secure Digital Host Controller Interface driver
+[    2.466319] kernel: sdhci: Copyright(c) Pierre Ossman
+[    2.466326] kernel: sdhci-pltfm: SDHCI platform and OF driver helper
+[    2.466601] kernel: ledtrig-cpu: registered to indicate activity on CPUs
+[    2.466652] kernel: zynqmp_firmware_probe Platform Management API v1.1
+[    2.466662] kernel: zynqmp_firmware_probe Trustzone version v1.0
+[    2.469531] kernel: zynqmp-pinctrl firmware:zynqmp-firmware:pinctrl: zynqmp pinctrl initialized
+[    2.491165] kernel: zynqmp_clk_mux_get_parent() getparent failed for clock: lpd_wdt, ret = -22
+[    2.491591] kernel: alg: No test for xilinx-zynqmp-aes (zynqmp-aes)
+[    2.491622] kernel: zynqmp_aes zynqmp_aes: AES Successfully Registered
+[    2.491787] kernel: alg: No test for xilinx-keccak-384 (zynqmp-keccak-384)
+[    2.491945] kernel: alg: No test for xilinx-zynqmp-rsa (zynqmp-rsa)
+[    2.492144] kernel: usbcore: registered new interface driver usbhid
+[    2.492154] kernel: usbhid: USB HID core driver
+[    2.494346] kernel: fpga_manager fpga0: Xilinx ZynqMP FPGA Manager registered
+[    2.494685] kernel: usbcore: registered new interface driver snd-usb-audio
+[    2.495424] kernel: pktgen: Packet Generator for packet performance testing. Version: 2.75
+[    2.496358] kernel: Initializing XFRM netlink socket
+[    2.496436] kernel: NET: Registered protocol family 10
+[    2.496825] kernel: Segment Routing with IPv6
+[    2.496915] kernel: sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+[    2.497262] kernel: NET: Registered protocol family 17
+[    2.497278] kernel: NET: Registered protocol family 15
+[    2.497297] kernel: bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+[    2.497347] kernel: can: controller area network core (rev 20170425 abi 9)
+[    2.497380] kernel: NET: Registered protocol family 29
+[    2.497389] kernel: can: raw protocol (rev 20170425)
+[    2.497397] kernel: can: broadcast manager protocol (rev 20170425 t)
+[    2.497407] kernel: can: netlink gateway (rev 20170425) max_hops=1
+[    2.497646] kernel: Bluetooth: RFCOMM TTY layer initialized
+[    2.497660] kernel: Bluetooth: RFCOMM socket layer initialized
+[    2.497677] kernel: Bluetooth: RFCOMM ver 1.11
+[    2.497688] kernel: Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    2.497696] kernel: Bluetooth: BNEP filters: protocol multicast
+[    2.497706] kernel: Bluetooth: BNEP socket layer initialized
+[    2.497714] kernel: Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+[    2.497724] kernel: Bluetooth: HIDP socket layer initialized
+[    2.497846] kernel: 9pnet: Installing 9P2000 support
+[    2.497867] kernel: Key type dns_resolver registered
+[    2.498236] kernel: registered taskstats version 1
+[    2.498245] kernel: Loading compiled-in X.509 certificates
+[    2.498579] kernel: Btrfs loaded, crc32c=crc32c-generic
+[    2.504865] kernel: ff000000.serial: ttyPS0 at MMIO 0xff000000 (irq = 33, base_baud = 6249999) is a xuartps
+[    3.722442] kernel: console [ttyPS0] enabled
+[    3.726822] kernel: ff010000.serial: ttyPS1 at MMIO 0xff010000 (irq = 34, base_baud = 6249999) is a xuartps
+[    3.736509] kernel: of-fpga-region fpga-full: FPGA Region probed
+[    3.742694] kernel: xilinx-dpdma fd4c0000.dma: Xilinx DPDMA engine is probed
+[    3.749286] kernel: xilinx-zynqmp-dma fd500000.dma: ZynqMP DMA driver Probe success
+[    3.756395] kernel: xilinx-zynqmp-dma fd510000.dma: ZynqMP DMA driver Probe success
+[    3.763507] kernel: xilinx-zynqmp-dma fd520000.dma: ZynqMP DMA driver Probe success
+[    3.770611] kernel: xilinx-zynqmp-dma fd530000.dma: ZynqMP DMA driver Probe success
+[    3.777723] kernel: xilinx-zynqmp-dma fd540000.dma: ZynqMP DMA driver Probe success
+[    3.784834] kernel: xilinx-zynqmp-dma fd550000.dma: ZynqMP DMA driver Probe success
+[    3.791937] kernel: xilinx-zynqmp-dma fd560000.dma: ZynqMP DMA driver Probe success
+[    3.799050] kernel: xilinx-zynqmp-dma fd570000.dma: ZynqMP DMA driver Probe success
+[    3.806147] kernel: xilinx-psgtr fd400000.zynqmp_phy: Invalid lane type
+[    3.812074] kernel: zynqmp-display fd4a0000.zynqmp-display: failed to get phy lane
+[    3.818964] kernel: zynqmp-display: probe of fd4a0000.zynqmp-display failed with error -22
+[    3.826953] kernel: xilinx-psgtr fd400000.zynqmp_phy: Lane:3 type:3 protocol:2 pll_locked:yes
+[    3.834840] kernel: ahci-ceva fd0c0000.ahci: AHCI 0001.0301 32 slots 2 ports 6 Gbps 0x3 impl platform mode
+[    3.843800] kernel: ahci-ceva fd0c0000.ahci: flags: 64bit ncq sntf pm clo only pmp fbs pio slum part ccc sds apst 
+[    3.854485] kernel: scsi host0: ahci-ceva
+[    3.858062] kernel: scsi host1: ahci-ceva
+[    3.861529] kernel: ata1: SATA max UDMA/133 mmio [mem 0xfd0c0000-0xfd0c1fff] port 0x100 irq 31
+[    3.869448] kernel: ata2: SATA max UDMA/133 mmio [mem 0xfd0c0000-0xfd0c1fff] port 0x180 irq 31
+[    3.878038] kernel: m25p80 spi0.0: found n25q512a, expected m25p80
+[    3.884021] kernel: m25p80 spi0.0: n25q512a (65536 Kbytes)
+[    3.888831] kernel: 4 fixed-partitions partitions found on MTD device spi0.0
+[    3.895187] kernel: Creating 4 MTD partitions on "spi0.0":
+[    3.899981] kernel: 0x000000000000-0x000000100000 : "qspi-fsbl-uboot"
+[    3.906241] kernel: 0x000000100000-0x000000600000 : "qspi-linux"
+[    3.911987] kernel: 0x000000600000-0x000000620000 : "qspi-device-tree"
+[    3.918215] kernel: 0x000000620000-0x000000c00000 : "qspi-rootfs"
+[    3.926309] kernel: macb ff0e0000.ethernet: Not enabling partial store and forward
+[    3.933692] kernel: libphy: MACB_mii_bus: probed
+[    3.939759] kernel: TI DP83867 ff0e0000.ethernet-ffffffff:0c: attached PHY driver [TI DP83867] (mii_bus:phy_addr=ff0e0000.ethernet-ffffffff:0c, irq=POLL)
+[    3.952807] kernel: macb ff0e0000.ethernet eth0: Cadence GEM rev 0x50070106 at 0xff0e0000 irq 22 (38:39:35:35:35:30)
+[    3.962931] kernel: xilinx-axipmon ffa00000.perf-monitor: Probed Xilinx APM
+[    3.969454] kernel: xilinx-axipmon fd0b0000.perf-monitor: Probed Xilinx APM
+[    3.975937] kernel: xilinx-axipmon fd490000.perf-monitor: Probed Xilinx APM
+[    3.982423] kernel: xilinx-axipmon ffa10000.perf-monitor: Probed Xilinx APM
+[    3.990442] kernel: dwc3 fe200000.dwc3: Failed to get clk 'ref': -2
+[    3.996448] kernel: xilinx-psgtr fd400000.zynqmp_phy: Lane:2 type:0 protocol:3 pll_locked:yes
+[    4.006508] kernel: xhci-hcd xhci-hcd.0.auto: xHCI Host Controller
+[    4.012005] kernel: xhci-hcd xhci-hcd.0.auto: new USB bus registered, assigned bus number 1
+[    4.020032] kernel: xhci-hcd xhci-hcd.0.auto: hcc params 0x0238f625 hci version 0x100 quirks 0x0000000202010810
+[    4.029455] kernel: xhci-hcd xhci-hcd.0.auto: irq 39, io mem 0xfe200000
+[    4.035575] kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 4.19
+[    4.043841] kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    4.051065] kernel: usb usb1: Product: xHCI Host Controller
+[    4.055940] kernel: usb usb1: Manufacturer: Linux 4.19.0 xhci-hcd
+[    4.061338] kernel: usb usb1: SerialNumber: xhci-hcd.0.auto
+[    4.066574] kernel: hub 1-0:1.0: USB hub found
+[    4.070344] kernel: hub 1-0:1.0: 1 port detected
+[    4.074453] kernel: xhci-hcd xhci-hcd.0.auto: xHCI Host Controller
+[    4.079952] kernel: xhci-hcd xhci-hcd.0.auto: new USB bus registered, assigned bus number 2
+[    4.087614] kernel: xhci-hcd xhci-hcd.0.auto: Host supports USB 3.0  SuperSpeed
+[    4.094348] kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 4.19
+[    4.102619] kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    4.109836] kernel: usb usb2: Product: xHCI Host Controller
+[    4.114712] kernel: usb usb2: Manufacturer: Linux 4.19.0 xhci-hcd
+[    4.120110] kernel: usb usb2: SerialNumber: xhci-hcd.0.auto
+[    4.125229] kernel: hub 2-0:1.0: USB hub found
+[    4.128993] kernel: hub 2-0:1.0: 1 port detected
+[    4.134902] kernel: at24 1-0054: 1024 byte 24c08 EEPROM, writable, 1 bytes/write
+[    4.141642] kernel: i2c i2c-0: Added multiplexed i2c bus 1
+[    4.146641] kernel: i2c i2c-0: Added multiplexed i2c bus 2
+[    4.151721] kernel: i2c i2c-0: Added multiplexed i2c bus 3
+[    4.156636] kernel: i2c i2c-0: Added multiplexed i2c bus 4
+[    4.161642] kernel: pca953x 5-0020: 5-0020 supply vcc not found, using dummy regulator
+[    4.168895] kernel: pca953x 5-0020: Linked as a consumer to regulator.0
+[    4.175487] kernel: i2c i2c-0: Added multiplexed i2c bus 5
+[    4.180429] kernel: i2c i2c-0: Added multiplexed i2c bus 6
+[    4.185368] kernel: i2c i2c-0: Added multiplexed i2c bus 7
+[    4.190290] kernel: i2c i2c-0: Added multiplexed i2c bus 8
+[    4.195085] kernel: pca954x 0-0074: registered 8 multiplexed busses for I2C switch pca9548
+[    4.197808] kernel: ata1: SATA link down (SStatus 0 SControl 330)
+[    4.202681] kernel: cdns-i2c ff030000.i2c: 400 kHz mmio ff030000 irq 24
+[    4.208077] kernel: ata2: SATA link down (SStatus 0 SControl 330)
+[    4.219478] kernel: cdns-wdt fd4d0000.watchdog: Xilinx Watchdog Timer at (____ptrval____) with timeout 60s
+[    4.259607] kernel: mmc0: SDHCI controller on ff170000.mmc [ff170000.mmc] using ADMA 64-bit
+[    4.275151] kernel: rtc_zynqmp ffa60000.rtc: setting system clock to 2021-08-06 18:10:39 UTC (1628273439)
+[    4.284029] kernel: of_cfs_init
+[    4.286478] kernel: of_cfs_init: OK
+[    4.289383] kernel: cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[    4.331295] kernel: mmc0: new high speed SDHC card at address aaaa
+[    4.337298] kernel: mmcblk0: mmc0:aaaa SB16G 14.8 GiB 
+[    4.346122] kernel:  mmcblk0: p1 p2
+[    4.427703] kernel: cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[    4.434370] kernel: zynqmp_pll_disable() clock disable failed for dpll_int, ret = -13
+[    4.442284] kernel: ALSA device list:
+[    4.445244] kernel:   No soundcards found.
+[    4.448959] kernel: platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+[    4.457572] kernel: cfg80211: failed to load regulatory.db
+[    4.476238] kernel: EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+[    4.484353] kernel: VFS: Mounted root (ext4 filesystem) on device 179:2.
+[    4.499533] kernel: devtmpfs: mounted
+[    4.502676] kernel: Freeing unused kernel memory: 832K
+[    4.511644] kernel: Run /sbin/init as init process
+[    4.683377] kernel: random: fast init done
+[    4.987187] systemd[1]: systemd 245.4-4ubuntu3 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=hybrid)
+[    5.009810] systemd[1]: Detected architecture arm64.
+[    5.046406] systemd[1]: Set hostname to <arm>.
+[    5.438088] systemd[1]: /lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+[    5.631748] kernel: random: systemd: uninitialized urandom read (16 bytes read)
+[    5.638513] systemd[1]: system-modprobe.slice: unit configures an IP firewall, but the local system does not support BPF/cgroup firewalling.
+[    5.651136] systemd[1]: (This warning is only shown for the first unit using IP firewalling.)
+[    5.660114] systemd[1]: Created slice system-modprobe.slice.
+[    5.683688] kernel: random: systemd: uninitialized urandom read (16 bytes read)
+[    5.690549] systemd[1]: Created slice system-serial\x2dgetty.slice.
+[    5.711666] kernel: random: systemd: uninitialized urandom read (16 bytes read)
+[    5.718477] systemd[1]: Created slice User and Session Slice.
+[    5.739810] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[    5.763766] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[    5.787757] systemd[1]: Condition check resulted in Arbitrary Executable File Formats File System Automount Point being skipped.
+[    5.799447] systemd[1]: Reached target Local Encrypted Volumes.
+[    5.819787] systemd[1]: Reached target Paths.
+[    5.835709] systemd[1]: Reached target Remote File Systems.
+[    5.855685] systemd[1]: Reached target Slices.
+[    5.871737] systemd[1]: Reached target Swap.
+[    5.888060] systemd[1]: Listening on Syslog Socket.
+[    5.903839] systemd[1]: Listening on initctl Compatibility Named Pipe.
+[    5.928114] systemd[1]: Listening on Journal Audit Socket.
+[    5.947902] systemd[1]: Listening on Journal Socket (/dev/log).
+[    5.967933] systemd[1]: Listening on Journal Socket.
+[    5.983925] systemd[1]: Listening on udev Control Socket.
+[    6.003869] systemd[1]: Listening on udev Kernel Socket.
+[    6.025099] systemd[1]: Mounting Huge Pages File System...
+[    6.041322] systemd[1]: Mounting POSIX Message Queue File System...
+[    6.065318] systemd[1]: Mounting Kernel Debug File System...
+[    6.083973] systemd[1]: Condition check resulted in Kernel Trace File System being skipped.
+[    6.093826] systemd[1]: Starting Journal Service...
+[    6.109709] systemd[1]: Starting Set the console keyboard layout...
+[    6.131765] systemd[1]: Condition check resulted in Create list of static device nodes for the current kernel being skipped.
+[    6.143820] systemd[1]: Condition check resulted in Load Kernel Module drm being skipped.
+[    6.158311] systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+[    6.172101] systemd[1]: Starting Load Kernel Modules...
+[    6.189276] systemd[1]: Starting Remount Root and Kernel File Systems...
+[    6.217206] systemd[1]: Starting udev Coldplug all Devices...
+[    6.234942] systemd[1]: Started Journal Service.
+[    8.587530] kernel: pps pps0: new PPS source ptp0
+[    8.587543] kernel: macb ff0e0000.ethernet: gem-ptp-timer ptp clock registered.
+[    8.587711] kernel: IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[    9.604062] kernel: macb ff0e0000.ethernet eth0: link up (1000/Full)
+[    9.604092] kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+[  143.166345] kernel: random: crng init done
+[  143.166353] kernel: random: 7 urandom warning(s) missed due to ratelimiting
