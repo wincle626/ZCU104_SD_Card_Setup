@@ -64,4 +64,6 @@ use 'netplay apply' to apply the configuration and use 'ip route show' to check 
 
 More detail can be found on Ubuntu Network Configuration document [(here)](https://ubuntu.com/server/docs/network-configuration).
 
+Ubuntu has provided official sysroot files for Xilinx Ultrascale+ MPSoC Evaluation boards. Details can be found [(here)](https://ubuntu.com/download/xilinx). 
+
 ## V [Xilinx Reference](https://xilinx-wiki.atlassian.net/wiki/spaces/A/overview)
